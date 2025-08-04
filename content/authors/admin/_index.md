@@ -47,8 +47,8 @@ interests:
 education:
   - area: PhD Computer Science
     institution: The University of New South Wales
-    date_start: 2023-9
-    date_end: 2027-9
+    date_start: 2023-9-17
+    date_end: 2027-9-17
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -56,8 +56,8 @@ education:
       url: 'https://example.com'
   - area: BSc Business Analytics & Professional Accounting
     institution: The University of Sydney
-    date_start: 2018-3
-    date_end: 2022-3
+    date_start: 2018-2-28
+    date_end: 2022-2-28
     summary: |
       GPA: 4.0/4.0
 
