@@ -28,7 +28,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'winny.li@unsw.edu.au'
+    url: 'mailto:winny.li@unsw.edu.au'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/xuan084
@@ -54,7 +54,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: BSc Business Analytics & Professional Accounting
+  - area: Bachelor of Business Analytics (Hons) & Professional Accounting
     institution: The University of Sydney
     date_start: 2018-02-28
     date_end: 2022-02-28
@@ -165,4 +165,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I’m a PhD candidate in Computer Science and Engineering at UNSW. I studied Business Analytics and Accounting at the University of Sydney, where I discovered my passion for data analysis.  I was fascinated by how data can tell stories, and that curiosity drove me to pursue a PhD to sharpen my skills and push boundaries. My research now focuses on NLP and document analysis, aiming to develop smarter AI for understanding unstructured text. 
+
+I see myself as someone curious and passionate about life — I enjoy exploring new things and never see challenges as scary. To me, solving problems feels like building LEGO: I love the process, and the joy that comes with making things work 😊.
