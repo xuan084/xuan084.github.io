@@ -18,13 +18,13 @@ publishDate: ""
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 1*(1)"
+publication_short: "IJUFKS"
 
-abstract: This paper proposes a new three-parameter inverse Weibull-type distribution via a similar way of constructing a skew normal distribution. The additional shape parameter increases the distribution’s modelling capability as other three-parameter inverse Weibull-type distributions. The mathematical properties of this inverse extended Weibull distribution are studied and proven. In the empirical study of four insurance datasets from Australia, Denmark and the USA, we show that the proposed distribution performs very well compared with other three-parameter competitors.
+abstract: "This paper proposes a new three-parameter inverse Weibull-type distribution via a similar way of constructing a skew normal distribution. The additional shape parameter increases the distribution’s modelling capability as other three-parameter inverse Weibull-type distributions. The mathematical properties of this inverse extended Weibull distribution are studied and proven. In the empirical study of four insurance datasets from Australia, Denmark and the USA, we show that the proposed distribution performs very well compared with other three-parameter competitors."
 
 # Summary. An optional shortened abstract.
-summary: This paper proposes a three-parameter inverse Weibull-type distribution with enhanced modeling flexibility, demonstrates its mathematical properties, and shows superior performance on insurance datasets from Australia, Denmark, and the USA compared to existing counterparts.
+summary: "This paper proposes a three-parameter inverse Weibull-type distribution with enhanced modeling flexibility, demonstrates its mathematical properties, and shows superior performance on insurance datasets from Australia, Denmark, and the USA compared to existing counterparts."
 
 tags:
 - Source Themes
