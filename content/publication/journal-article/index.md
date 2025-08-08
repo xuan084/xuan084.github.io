@@ -1,16 +1,16 @@
 ---
-title: "An example journal article"
+title: "A new inverse extended Weibull distribution for modelling insurance loss data"
 authors:
-- admin
-- Robert Ford
+- Shilin Yu
+- Xuan Li
+- ST Boris Choy
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+
+date: "2023-12-01T00:00:00Z"
+doi: "10.1142/S0218488523400196"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -21,10 +21,10 @@ publication_types: ["article-journal"]
 publication: "*Journal of Source Themes, 1*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This paper proposes a new three-parameter inverse Weibull-type distribution via a similar way of constructing a skew normal distribution. The additional shape parameter increases the distribution’s modelling capability as other three-parameter inverse Weibull-type distributions. The mathematical properties of this inverse extended Weibull distribution are studied and proven. In the empirical study of four insurance datasets from Australia, Denmark and the USA, we show that the proposed distribution performs very well compared with other three-parameter competitors.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper proposes a three-parameter inverse Weibull-type distribution with enhanced modeling flexibility, demonstrates its mathematical properties, and shows superior performance on insurance datasets from Australia, Denmark, and the USA compared to existing counterparts.
 
 tags:
 - Source Themes
@@ -33,8 +33,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://www.worldscientific.com/doi/abs/10.1142/S0218488523400196
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
