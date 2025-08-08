@@ -35,7 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I apply the rapid progress of AI to build smarter document understanding tools, especially for recognizing and extracting tables. Tables are powerful carriers of structured information, yet often overlooked. From annual reports in finance to data-heavy industry documents, I aim to create accurate, table-centric solutions that make this rich information truly accessible and useful.
+        I apply the rapid progress of AI to build smarter document understanding tools, especially for recognizing and extracting tables. Tables are powerful carriers of structured information, yet often overlooked. 
+        
+        From annual reports in finance to data-heavy industry documents, I aim to create accurate, table-centric solutions that make this rich information truly accessible and useful.
         
         Please reach out to collaborate 😃
     design:

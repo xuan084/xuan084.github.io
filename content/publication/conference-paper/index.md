@@ -16,7 +16,7 @@ date: '2025-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-11-01T00:00:00Z'
+publishDate: ''
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -37,7 +37,7 @@ tags:
   - Large Language Models
 
 # Display this page in the Featured widget?
-featured: false
+featured: ture
 
 # Custom links (uncomment lines below)
 # links:

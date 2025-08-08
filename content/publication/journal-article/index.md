@@ -28,7 +28,7 @@ summary: "This paper proposes a three-parameter inverse Weibull-type distributio
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 # links:
 # - name: ""
