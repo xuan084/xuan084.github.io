@@ -21,7 +21,7 @@ publishDate: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['Dotabler']
 
 # Publication name and optional abbreviated publication name.
 publication: "In *The 28th European Conference on Artificial Intelligence*"
@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://doi.org/10.3233/FAIA251190'
 url_code: 'https://github.com/xuan084/DoTabler2025.git'
 url_dataset: ''
 url_poster: ''
