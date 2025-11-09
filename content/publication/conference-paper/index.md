@@ -13,7 +13,7 @@ authors:
 author_notes:
 
 date: '2025-07-01T00:00:00Z'
-doi: ''
+doi: '10.3233/FAIA251190'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ''
@@ -21,7 +21,7 @@ publishDate: ''
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Dotabler']
+publication_types: ['conference paper']
 
 # Publication name and optional abbreviated publication name.
 publication: "In *The 28th European Conference on Artificial Intelligence*"
