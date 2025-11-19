@@ -13,9 +13,21 @@ baseURL: 'https://example.com/'
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+hasCJKLanguage: true
+# 把默认语言放到子目录（例如 /en/ 与 /zh/），对 SEO 与部署更清晰；
+# 如果你想让默认语言保持根路径，请设为 false。
+defaultContentLanguageInSubdir: true
 removePathAccents: true
+
+languages:
+  en:
+    languageName: English
+    title: "Xuan (Winny) Li"
+    weight: 1
+  zh:
+    languageName: 中文
+    title: "李玄（Winny）"
+    weight: 2
 
 ############################
 ## ADVANCED

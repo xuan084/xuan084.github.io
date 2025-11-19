@@ -1,0 +1,24 @@
+{{/*
+Navbar partial override for Hugo Blox 'navbar' blox.
+This renders the main menu and places the language switcher at the right.
+*/}}
+<nav class="blox-navbar" role="navigation" aria-label="Main navigation" style="display:flex;align-items:center;justify-content:space-between;padding:0.75rem 1rem;">
+  <div class="blox-brand">
+    <a href="{{ "/" | relLangURL }}" style="font-weight:600;text-decoration:none;color:inherit;">{{ .Site.Params.header.logo.text | default .Site.Title }}</a>
+  </div>
+
+  <div class="blox-mainmenu" style="margin-left:1rem;flex:1;">
+    <ul style="display:flex;gap:1rem;list-style:none;margin:0;padding:0;align-items:center;">
+      {{ $menu := .Site.Menus.main }}
+      {{ if $menu }}
+        {{ range $menu }}
+          <li style="margin:0;"><a href="{{ .URL | relLangURL }}" style="text-decoration:none;color:inherit;">{{ .Name }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="blox-actions" style="margin-left:auto;display:flex;align-items:center;gap:0.5rem;">
+    {{ partial "language-switcher.html" . }}
+  </div>
+</nav>

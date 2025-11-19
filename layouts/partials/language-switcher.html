@@ -1,0 +1,31 @@
+{{/*
+Language switcher partial for Hugo.
+Usage: {{ partial "language-switcher.html" . }}
+Behavior:
+ - 如果当前页面有翻译版本（translation），则链接到对应翻译页面。
+ - 否则回退到该语言的站点根（例如 /en/ 或 /zh/）。
+*/}}
+<nav class="language-switcher" aria-label="Language switcher">
+  {{/* Inline styles keep this self-contained; replace with site CSS if preferred. */}}
+  <ul style="display:flex;gap:0.5rem;list-style:none;margin:0;padding:0;align-items:center;">
+  {{ $ctx := . }}
+  {{ range $lang := .Site.Languages }}
+    {{ $s := newScratch }}
+    {{ if not $ctx.IsHome }}
+      {{ range $ctx.Translations }}
+        {{ if eq .Lang $lang.Lang }}
+          {{ $s.Set "link" .RelPermalink }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if not ($s.Get "link") }}
+      {{ $s.Set "link" ($lang.Lang | relLangURL) }}
+    {{ end }}
+    <li style="margin:0;">
+      <a href="{{ $s.Get "link" }}" style="display:inline-block;padding:0.15rem 0.5rem;border-radius:4px;text-decoration:none;color:inherit;{{ if eq $ctx.Site.Language.Lang $lang.Lang }}font-weight:600;text-decoration:underline;{{ end }}">
+        {{ $lang.LanguageName }}
+      </a>
+    </li>
+  {{ end }}
+  </ul>
+</nav>

@@ -1,0 +1,12 @@
+{{/*
+Simple header partial that delegates to the blox navbar if present.
+Place this partial in templates that expect a `header` partial.
+*/}}
+{{ if partialExists "blox/navbar.html" }}
+  {{ partial "blox/navbar.html" . }}
+{{ else }}
+  <header style="display:flex;align-items:center;justify-content:space-between;padding:1rem;">
+    <div class="site-brand"><a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a></div>
+    <div class="header-right">{{ partial "language-switcher.html" . }}</div>
+  </header>
+{{ end }}
