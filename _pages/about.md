@@ -69,10 +69,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/TADA-pipeline.jpg' alt="CAST Framework Architecture" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</h3>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</a></h3>
     <div class="authors"><strong>Jinxiang Xie</strong>, Zihao Li, Wei He, Rui Ding, Shi Han, Dongmei Zhang</div>
     <div class="venue">In Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</div>
     <div class="links">
+      <a href="/cast/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
       <a href="https://arxiv.org/abs/2602.15861" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
     </div>
   </div>

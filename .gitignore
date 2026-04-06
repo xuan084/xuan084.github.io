@@ -2,4 +2,5 @@ _site/
 push.sh
 .DS_Store
 CLAUDE.md
+AGENTS.md
 .claude/settings.local.json
