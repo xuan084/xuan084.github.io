@@ -211,20 +211,14 @@ author_profile: false
   margin: 25px 0;
 }
 .highlights-list li {
-  padding: 12px 0 12px 35px;
-  position: relative;
+  padding: 14px 0 14px 20px;
+  margin-bottom: 8px;
   font-size: 1em;
   line-height: 1.6;
   color: #333;
+  border-left: 3px solid #667eea;
 }
-.highlights-list li::before {
-  content: "✦";
-  position: absolute;
-  left: 0;
-  color: #667eea;
-  font-size: 1.1em;
-}
-.highlights-list { list-style: none !important; }
+.highlights-list { list-style: none !important; padding: 0 !important; }
 .highlights-list li { list-style: none !important; }
 
 /* BibTeX */
