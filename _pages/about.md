@@ -85,10 +85,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3>DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</h3>
+    <h3><a href="/dsgram/" style="color: inherit; text-decoration: none;">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</a></h3>
     <div class="authors"><strong>Jinxiang Xie</strong>, Yilin Li, Xunjian Yin, Xiaojun Wan</div>
     <div class="venue">In The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)</div>
     <div class="links">
+      <a href="/dsgram/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
       <a href="https://arxiv.org/abs/2412.12832" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/jxtse/GEC-Metrics-DSGram" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
