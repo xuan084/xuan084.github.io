@@ -5,268 +5,10 @@ author_profile: false
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-<style>
-/* Project Page Styles */
-.project-container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
-
-/* Header Section */
-.project-header { text-align: center; padding: 40px 0 30px; }
-.project-venue-badge { 
-  display: inline-block; 
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-  color: #fff; 
-  padding: 6px 18px; 
-  border-radius: 25px; 
-  font-size: 0.9em; 
-  font-weight: 600; 
-  margin-bottom: 20px;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
-}
-.project-title { 
-  font-size: 2.2em; 
-  font-weight: 700; 
-  line-height: 1.3; 
-  margin-bottom: 15px;
-  color: #1a1a1a;
-}
-.project-subtitle {
-  font-size: 1.3em;
-  color: #555;
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-
-/* Authors */
-.project-authors { 
-  font-size: 1.1em; 
-  margin-bottom: 10px;
-  line-height: 1.8;
-}
-.project-authors a { 
-  color: #667eea; 
-  text-decoration: none; 
-  font-weight: 500;
-}
-.project-authors a:hover { text-decoration: underline; }
-.affiliations {
-  font-size: 0.95em;
-  color: #666;
-  margin-bottom: 25px;
-}
-.affiliations sup { color: #667eea; font-weight: 600; }
-
-/* Links Bar */
-.links-bar { 
-  display: flex; 
-  justify-content: center;
-  gap: 15px; 
-  flex-wrap: wrap; 
-  margin-bottom: 30px;
-}
-.links-bar a { 
-  display: inline-flex; 
-  align-items: center; 
-  gap: 8px; 
-  padding: 10px 24px; 
-  border-radius: 8px; 
-  font-size: 1em; 
-  font-weight: 600; 
-  text-decoration: none; 
-  color: #fff; 
-  transition: all 0.2s ease;
-}
-.links-bar a:hover { 
-  transform: translateY(-2px); 
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15); 
-}
-.btn-arxiv { background: #b31b1b; }
-.btn-pdf { background: #d4451a; }
-.btn-code { background: #24292e; }
-.btn-video { background: #ff0000; }
-
-/* Teaser Image */
-.teaser-section { margin: 30px 0 40px; text-align: center; }
-.teaser-image { 
-  max-width: 100%; 
-  border-radius: 12px; 
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
-}
-.teaser-caption {
-  margin-top: 15px;
-  font-size: 0.95em;
-  color: #555;
-  font-style: italic;
-}
-
-/* Abstract Section */
-.abstract-section {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 12px;
-  padding: 30px 35px;
-  margin: 40px 0;
-}
-.abstract-title {
-  font-size: 1.4em;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #1a1a1a;
-}
-.abstract-text {
-  font-size: 1.05em;
-  line-height: 1.8;
-  color: #333;
-  text-align: justify;
-}
-
-/* Section Styling */
-.project-section { margin: 50px 0; }
-.section-title {
-  font-size: 1.6em;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #667eea;
-  display: inline-block;
-}
-
-/* Method Cards */
-.method-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  margin: 30px 0;
-}
-.method-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 25px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  border-left: 4px solid #667eea;
-}
-.method-card h3 {
-  font-size: 1.2em;
-  color: #667eea;
-  margin-bottom: 12px;
-  font-weight: 600;
-}
-.method-card p {
-  font-size: 0.95em;
-  line-height: 1.7;
-  color: #444;
-  margin: 0;
-}
-
-/* Figures */
-.figure-block {
-  margin: 35px 0;
-  text-align: center;
-}
-.figure-block img {
-  max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-.figure-caption {
-  margin-top: 12px;
-  font-size: 0.9em;
-  color: #555;
-  line-height: 1.5;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Results Grid */
-.results-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-.result-item {
-  background: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.06);
-  text-align: center;
-}
-.result-number {
-  font-size: 2.5em;
-  font-weight: 700;
-  color: #667eea;
-  line-height: 1;
-}
-.result-label {
-  font-size: 0.95em;
-  color: #555;
-  margin-top: 8px;
-}
-
-/* Highlights List */
-.highlights-list {
-  list-style: none;
-  padding: 0;
-  margin: 25px 0;
-}
-.highlights-list li {
-  padding: 14px 0 14px 20px;
-  margin-bottom: 8px;
-  font-size: 1em;
-  line-height: 1.6;
-  color: #333;
-  border-left: 3px solid #667eea;
-}
-.highlights-list { list-style: none !important; padding: 0 !important; }
-.highlights-list li { list-style: none !important; }
-
-/* BibTeX */
-.bibtex-section {
-  background: #f6f8fa;
-  border-radius: 10px;
-  padding: 25px;
-  margin: 30px 0;
-  position: relative;
-}
-.bibtex-code {
-  font-family: 'SF Mono', Monaco, Consolas, monospace;
-  font-size: 0.8em;
-  line-height: 1.6;
-  color: #24292e;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  word-break: break-all;
-}
-.bibtex-copy-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #667eea;
-  color: #fff;
-  border: none;
-  padding: 6px 14px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.85em;
-  font-weight: 500;
-  transition: background 0.2s;
-}
-.bibtex-copy-btn:hover { background: #5a6fd6; }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .project-title { font-size: 1.6em; }
-  .project-subtitle { font-size: 1.1em; }
-  .links-bar a { padding: 8px 18px; font-size: 0.9em; }
-  .abstract-section { padding: 20px; }
-  .method-grid { grid-template-columns: 1fr; }
-}
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/project-page.css' | relative_url }}">
 
 <div class="project-container">
 
-  <!-- Header -->
   <header class="project-header">
     <div class="project-venue-badge"><i class="fas fa-award"></i> ACL 2026 Findings</div>
     <h1 class="project-title">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</h1>
@@ -290,11 +32,9 @@ author_profile: false
     <div class="links-bar">
       <a href="https://arxiv.org/abs/2602.15861" class="btn-arxiv" target="_blank"><i class="fas fa-file-alt"></i> Paper</a>
       <a href="https://arxiv.org/pdf/2602.15861" class="btn-pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-      <!-- <a href="#" class="btn-code" target="_blank"><i class="fab fa-github"></i> Code</a> -->
     </div>
   </header>
 
-  <!-- Teaser Figure -->
   <section class="teaser-section">
     <img src="{{ '/images/cast-fig2-framework.png' | relative_url }}" alt="CAST Framework Overview" class="teaser-image">
     <div class="teaser-caption">
@@ -302,7 +42,6 @@ author_profile: false
     </div>
   </section>
 
-  <!-- Abstract -->
   <section class="abstract-section">
     <div class="abstract-title"><i class="fas fa-align-left"></i> Abstract</div>
     <div class="abstract-text">
@@ -314,7 +53,6 @@ author_profile: false
     </div>
   </section>
 
-  <!-- Key Contributions -->
   <section class="project-section">
     <h2 class="section-title">Key Contributions</h2>
     <ul class="highlights-list">
@@ -325,7 +63,6 @@ author_profile: false
     </ul>
   </section>
 
-  <!-- Method -->
   <section class="project-section">
     <h2 class="section-title">Method</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 25px;">
@@ -351,7 +88,6 @@ author_profile: false
     </div>
   </section>
 
-  <!-- Empirical Observation -->
   <section class="project-section">
     <h2 class="section-title">Empirical Observation</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 20px;">
@@ -366,7 +102,6 @@ author_profile: false
     </div>
   </section>
 
-  <!-- Results -->
   <section class="project-section">
     <h2 class="section-title">Results</h2>
     
@@ -393,7 +128,6 @@ author_profile: false
     </div>
   </section>
 
-  <!-- Citation -->
   <section class="project-section">
     <h2 class="section-title">Citation</h2>
     <div class="bibtex-section">
@@ -410,7 +144,6 @@ author_profile: false
     </div>
   </section>
 
-  <!-- Acknowledgments -->
   <section class="project-section" style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #e1e4e8;">
     <p style="font-size: 0.9em; color: #666; line-height: 1.6;">
       <strong>Acknowledgments:</strong> This work was done during the author's internship at Microsoft Research. We thank all colleagues and mentors from the DKI group for their support and valuable feedback.
