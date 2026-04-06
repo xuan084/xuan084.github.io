@@ -224,6 +224,8 @@ author_profile: false
   color: #667eea;
   font-size: 1.1em;
 }
+.highlights-list { list-style: none !important; }
+.highlights-list li { list-style: none !important; }
 
 /* BibTeX */
 .bibtex-section {
@@ -402,12 +404,14 @@ author_profile: false
     <h2 class="section-title">Citation</h2>
     <div class="bibtex-section">
       <button class="bibtex-copy-btn" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText);this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',2000);">Copy</button>
-      <div class="bibtex-code">@inproceedings{xie2026cast,
-  title={Achieving Stable {LLM}-based Text Analysis for Data Analytics},
-  author={Xie, Jinxiang and Li, Zihao and He, Wei and Ding, Rui and Han, Shi and Zhang, Dongmei},
-  booktitle={Findings of the 64th Annual Meeting of the Association for Computational Linguistics},
-  year={2026},
-  publisher={Association for Computational Linguistics}
+      <div class="bibtex-code">@misc{xie2026castachievingstablellmbased,
+      title={CAST: Achieving Stable LLM-based Text Analysis for Data Analytics}, 
+      author={Jinxiang Xie and Zihao Li and Wei He and Rui Ding and Shi Han and Dongmei Zhang},
+      year={2026},
+      eprint={2602.15861},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.15861}, 
 }</div>
     </div>
   </section>
@@ -415,7 +419,7 @@ author_profile: false
   <!-- Acknowledgments -->
   <section class="project-section" style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #e1e4e8;">
     <p style="font-size: 0.9em; color: #666; line-height: 1.6;">
-      <strong>Acknowledgments:</strong> This work was done during the first author's internship at Microsoft Research. We thank the DKI group for their support and valuable feedback.
+      <strong>Acknowledgments:</strong> This work was done during the author's internship at Microsoft Research. We thank all colleagues and mentors from the DKI group for their support and valuable feedback.
     </p>
   </section>
 
