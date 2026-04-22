@@ -739,33 +739,41 @@ a.srs-stat:hover {
    ========================================================================== */
 .srs-fadeup {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(48px) scale(0.985);
+  filter: blur(2px);
+  transition: opacity 0.85s cubic-bezier(0.22, 0.7, 0.25, 1),
+              transform 0.85s cubic-bezier(0.22, 0.7, 0.25, 1),
+              filter 0.85s ease;
 }
 
 .srs-fadeup.is-visible {
   opacity: 1;
   transform: none;
+  filter: none;
 }
 
 .srs-fadeup-stagger > * {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.55s ease, transform 0.55s ease;
+  transform: translateY(40px) scale(0.96);
+  filter: blur(1.5px);
+  transition: opacity 0.7s cubic-bezier(0.22, 0.7, 0.25, 1),
+              transform 0.7s cubic-bezier(0.22, 0.7, 0.25, 1),
+              filter 0.7s ease;
 }
 
-.srs-fadeup-stagger.is-visible > *:nth-child(1) { transition-delay: 0.00s; opacity: 1; transform: none; }
-.srs-fadeup-stagger.is-visible > *:nth-child(2) { transition-delay: 0.06s; opacity: 1; transform: none; }
-.srs-fadeup-stagger.is-visible > *:nth-child(3) { transition-delay: 0.12s; opacity: 1; transform: none; }
-.srs-fadeup-stagger.is-visible > *:nth-child(4) { transition-delay: 0.18s; opacity: 1; transform: none; }
-.srs-fadeup-stagger.is-visible > *:nth-child(5) { transition-delay: 0.24s; opacity: 1; transform: none; }
-.srs-fadeup-stagger.is-visible > *:nth-child(6) { transition-delay: 0.30s; opacity: 1; transform: none; }
+.srs-fadeup-stagger.is-visible > *:nth-child(1) { transition-delay: 0.00s; opacity: 1; transform: none; filter: none; }
+.srs-fadeup-stagger.is-visible > *:nth-child(2) { transition-delay: 0.10s; opacity: 1; transform: none; filter: none; }
+.srs-fadeup-stagger.is-visible > *:nth-child(3) { transition-delay: 0.20s; opacity: 1; transform: none; filter: none; }
+.srs-fadeup-stagger.is-visible > *:nth-child(4) { transition-delay: 0.30s; opacity: 1; transform: none; filter: none; }
+.srs-fadeup-stagger.is-visible > *:nth-child(5) { transition-delay: 0.40s; opacity: 1; transform: none; filter: none; }
+.srs-fadeup-stagger.is-visible > *:nth-child(6) { transition-delay: 0.50s; opacity: 1; transform: none; filter: none; }
 
 @media (prefers-reduced-motion: reduce) {
   .srs-fadeup,
   .srs-fadeup-stagger > * {
     opacity: 1;
     transform: none;
+    filter: none;
     transition: none;
   }
 }

@@ -386,7 +386,7 @@ cp -r skills/* .agents/skills/</code></pre>
           io.unobserve(entry.target);
         }
       });
-    }, {threshold: 0.12, rootMargin: '0px 0px -8% 0px'});
+    }, {threshold: 0.15, rootMargin: '0px 0px -12% 0px'});
     document.querySelectorAll('.srs-fadeup, .srs-fadeup-stagger').forEach(function(el) {
       io.observe(el);
     });
