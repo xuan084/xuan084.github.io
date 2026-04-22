@@ -13,6 +13,10 @@ author_profile: false
     <div class="project-venue-badge"><i class="fas fa-award"></i> ACL 2026 Findings</div>
     <h1 class="project-title">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</h1>
     <div class="project-subtitle">Consistency via Algorithmic Prompting and Stable Thinking</div>
+
+    <p class="pp-hero-tagline">
+      LLM-based text analysis is unstable across runs — a deal-breaker for data analytics. <strong>CAST</strong> constrains the latent reasoning path to deliver consistent, deterministic-grade outputs without sacrificing quality.
+    </p>
     
     <div class="project-authors">
       <a href="https://jxtse.github.io">Jinxiang Xie</a><sup>1</sup>,
@@ -53,17 +57,33 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Key Contributions</h2>
-    <ul class="highlights-list">
-      <li><strong>Formalization of TADA:</strong> We formalize Text Analysis for Data Analysis (TADA) as a tabular-centric paradigm, highlighting stability as a functional necessity for integrating probabilistic LLM outputs into deterministic OLAP workflows.</li>
-      <li><strong>CAST Framework:</strong> A novel approach that constrains generation via Algorithmic Prompting and intermediate commitments, reducing the entropy of latent paths without expensive search-based methods.</li>
-      <li><strong>Stability Metrics:</strong> We introduce CAST-S and CAST-T, stability-focused evaluation metrics combining semantic matching with order sensitivity (Kendall's Tau) to capture human-perceived consistency.</li>
-      <li><strong>Strong Empirical Results:</strong> Up to 16.2% improvement in Stability Score across multiple LLM backbones, with no regression in accuracy.</li>
-    </ul>
+    <div class="pp-contrib-grid pp-fadeup-stagger">
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">01</div>
+        <h3 class="pp-contrib-title">Formalization of TADA</h3>
+        <p class="pp-contrib-text">We formalize Text Analysis for Data Analysis (TADA) as a tabular-centric paradigm, highlighting <strong>stability as a functional necessity</strong> for integrating probabilistic LLM outputs into deterministic OLAP workflows.</p>
+      </div>
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">02</div>
+        <h3 class="pp-contrib-title">CAST Framework</h3>
+        <p class="pp-contrib-text">A novel approach that constrains generation via <strong>Algorithmic Prompting</strong> and intermediate commitments, reducing the entropy of latent paths without expensive search-based methods.</p>
+      </div>
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">03</div>
+        <h3 class="pp-contrib-title">Stability Metrics</h3>
+        <p class="pp-contrib-text">We introduce <strong>CAST-S</strong> and <strong>CAST-T</strong>, stability-focused evaluation metrics combining semantic matching with order sensitivity (Kendall's Tau) to capture human-perceived consistency.</p>
+      </div>
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">04</div>
+        <h3 class="pp-contrib-title">Strong Empirical Results</h3>
+        <p class="pp-contrib-text">Up to <strong>16.2% improvement</strong> in Stability Score across multiple LLM backbones, with no regression in accuracy.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Method</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 25px;">
       CAST addresses the instability problem by constraining the LLM's latent reasoning trajectory through two complementary mechanisms:
@@ -88,7 +108,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Empirical Observation</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 20px;">
       We empirically demonstrate that requiring relevant intermediate states demonstrably sharpens the model's output distribution. As shown below, CAST produces the sharpest and most concentrated distribution, indicating substantially improved run-to-run stability.
@@ -102,7 +122,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Results</h2>
     
     <div class="results-grid">
@@ -128,7 +148,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Citation</h2>
     <div class="bibtex-section">
       <button class="bibtex-copy-btn" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText);this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',2000);">Copy</button>
@@ -151,3 +171,5 @@ author_profile: false
   </section>
 
 </div>
+
+{% include project-page-enhance.html %}

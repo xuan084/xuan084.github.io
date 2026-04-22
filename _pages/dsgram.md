@@ -12,6 +12,10 @@ author_profile: false
   <header class="project-header">
     <div class="project-venue-badge"><i class="fas fa-award"></i> AAAI 2025</div>
     <h1 class="project-title">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</h1>
+
+    <p class="pp-hero-tagline">
+      Reference-based metrics like BLEU break down on LLM-based GEC systems. <strong>DSGram</strong> introduces a dynamic-weighting framework with three new sub-metrics that align <strong>significantly better with human judgment</strong>.
+    </p>
     
     <div class="project-authors">
       <a href="https://jxtse.github.io">Jinxiang Xie</a><sup>1,2</sup>,
@@ -49,7 +53,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Motivation</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 20px;">
       Traditional GEC evaluation metrics have significant limitations when dealing with LLM-based systems. As shown below, BLEU fails to differentiate between over- and under-correction, while SOME cannot capture over-correction. DSGram addresses these gaps with a comprehensive evaluation framework.
@@ -62,17 +66,33 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Key Contributions</h2>
-    <ul class="highlights-list">
-      <li><strong>New Sub-Metrics:</strong> We introduce redesigned sub-metrics for GEC evaluation — Semantic Coherence, Edit Level, and Fluency — that address the over-editing problem in LLM-based GEC models.</li>
-      <li><strong>Dynamic Weighting with AHP:</strong> We propose a novel dynamic weighting method integrating the Analytic Hierarchy Process with LLMs to ascertain the context-dependent importance of evaluation criteria.</li>
-      <li><strong>Evaluation Datasets:</strong> We present DSGram-Eval (human-annotated) and DSGram-LLMs (GPT-4 simulated), both built on CoNLL-2014 and BEA-2019 test sets for rigorous evaluation.</li>
-      <li><strong>Superior Correlation:</strong> DSGram achieves higher correlation with human judgments than all conventional reference-based and reference-free metrics on the SEEDA benchmark.</li>
-    </ul>
+    <div class="pp-contrib-grid pp-fadeup-stagger">
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">01</div>
+        <h3 class="pp-contrib-title">New Sub-Metrics</h3>
+        <p class="pp-contrib-text">We introduce redesigned sub-metrics for GEC evaluation — <strong>Semantic Coherence</strong>, <strong>Edit Level</strong>, and <strong>Fluency</strong> — that address the over-editing problem in LLM-based GEC models.</p>
+      </div>
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">02</div>
+        <h3 class="pp-contrib-title">Dynamic Weighting with AHP</h3>
+        <p class="pp-contrib-text">A novel dynamic weighting method integrating the <strong>Analytic Hierarchy Process</strong> with LLMs to ascertain the context-dependent importance of evaluation criteria.</p>
+      </div>
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">03</div>
+        <h3 class="pp-contrib-title">Evaluation Datasets</h3>
+        <p class="pp-contrib-text">We release <strong>DSGram-Eval</strong> (human-annotated) and <strong>DSGram-LLMs</strong> (GPT-4 simulated), both built on CoNLL-2014 and BEA-2019 test sets for rigorous evaluation.</p>
+      </div>
+      <div class="pp-contrib-card">
+        <div class="pp-contrib-num">04</div>
+        <h3 class="pp-contrib-title">Superior Correlation</h3>
+        <p class="pp-contrib-text">DSGram achieves <strong>higher correlation with human judgments</strong> than all conventional reference-based and reference-free metrics on the SEEDA benchmark.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Method</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 25px;">
       DSGram comprises two main components: <strong>score generation</strong> and <strong>weight generation</strong>. By applying context-specific weights to the generated scores, an overall evaluation score is obtained.
@@ -97,7 +117,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Sub-Metrics Analysis</h2>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 20px;">
       We redesigned the sub-metrics to reduce redundancy and improve coverage. The original SOME metrics showed high correlation (0.89) between Grammaticality and Fluency. Our new sub-metrics achieve a more balanced distribution.
@@ -115,7 +135,7 @@ author_profile: false
     </div>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Results</h2>
     
     <div class="results-grid">
@@ -138,7 +158,7 @@ author_profile: false
     </p>
   </section>
 
-  <section class="project-section">
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Citation</h2>
     <div class="bibtex-section">
       <button class="bibtex-copy-btn" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText);this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',2000);">Copy</button>
@@ -162,3 +182,5 @@ author_profile: false
   </section>
 
 </div>
+
+{% include project-page-enhance.html %}
