@@ -11,40 +11,48 @@ author_profile: false
 <div class="project-container srs-page">
 
   <!-- =========================== HERO =========================== -->
-  <header class="srs-hero">
-    <div class="srs-hero-badge">
-      <i class="fas fa-flask"></i> Open Source &middot; MIT License
-    </div>
-    <h1 class="srs-hero-title">
-      <span class="srs-emoji">🔬</span> Scientific Research Skills
-    </h1>
-    <p class="srs-hero-tagline">
-      High-level research methodology skills for AI coding agents. <br>
-      <em>Not another tool list — each skill encodes a research workflow that takes months to develop.</em>
-    </p>
-
-    <div class="srs-hero-stats">
-      <a class="srs-stat" href="https://github.com/jxtse/scientific-research-skills" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i> jxtse/scientific-research-skills
-      </a>
-      <span class="srs-stat">
-        <img src="https://img.shields.io/github/stars/jxtse/scientific-research-skills?style=flat-square&label=Stars&color=181717" alt="GitHub stars">
-      </span>
-      <span class="srs-stat">
-        <img src="https://img.shields.io/github/last-commit/jxtse/scientific-research-skills?style=flat-square&label=Updated&color=2980b9" alt="Last commit">
-      </span>
+  <header class="srs-hero srs-hero--video">
+    <div class="srs-hero-video-wrap">
+      <video
+        class="srs-hero-video"
+        autoplay loop muted playsinline preload="auto"
+        poster="{{ '/assets/videos/skills-hero-poster.jpg' | relative_url }}"
+        aria-hidden="true">
+        <source src="{{ '/assets/videos/skills-hero.webm' | relative_url }}" type="video/webm">
+        <source src="{{ '/assets/videos/skills-hero.mp4'  | relative_url }}" type="video/mp4">
+      </video>
+      <div class="srs-hero-video-fade"></div>
     </div>
 
-    <div class="srs-hero-cta">
-      <a href="#install" class="srs-btn srs-btn-primary"><i class="fas fa-download"></i> Install</a>
-      <a href="#skills-grid" class="srs-btn srs-btn-ghost"><i class="fas fa-th"></i> Browse 6 Skills</a>
-      <a href="#workflow" class="srs-btn srs-btn-ghost"><i class="fas fa-project-diagram"></i> See Workflow</a>
-      <a href="https://github.com/jxtse/scientific-research-skills" target="_blank" rel="noopener" class="srs-btn srs-btn-ghost"><i class="fab fa-github"></i> GitHub</a>
+    <div class="srs-hero-overlay">
+      <p class="srs-hero-tagline">
+        High-level research methodology skills for AI coding agents. <br>
+        <em>Not another tool list — each skill encodes a research workflow that takes months to develop.</em>
+      </p>
+
+      <div class="srs-hero-stats">
+        <a class="srs-stat" href="https://github.com/jxtse/scientific-research-skills" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> jxtse/scientific-research-skills
+        </a>
+        <span class="srs-stat">
+          <img src="https://img.shields.io/github/stars/jxtse/scientific-research-skills?style=flat-square&label=Stars&color=181717" alt="GitHub stars">
+        </span>
+        <span class="srs-stat">
+          <img src="https://img.shields.io/github/last-commit/jxtse/scientific-research-skills?style=flat-square&label=Updated&color=2980b9" alt="Last commit">
+        </span>
+      </div>
+
+      <div class="srs-hero-cta">
+        <a href="#install" class="srs-btn srs-btn-primary"><i class="fas fa-download"></i> Install</a>
+        <a href="#skills-grid" class="srs-btn srs-btn-ghost"><i class="fas fa-th"></i> Browse 6 Skills</a>
+        <a href="#workflow" class="srs-btn srs-btn-ghost"><i class="fas fa-project-diagram"></i> See Workflow</a>
+        <a href="https://github.com/jxtse/scientific-research-skills" target="_blank" rel="noopener" class="srs-btn srs-btn-ghost"><i class="fab fa-github"></i> GitHub</a>
+      </div>
     </div>
   </header>
 
   <!-- =========================== PHILOSOPHY =========================== -->
-  <section class="srs-philosophy">
+  <section class="srs-philosophy srs-fadeup">
     <div class="srs-pull-quote">
       <i class="fas fa-quote-left"></i>
       Existing AI-for-research repos catalog hundreds of <strong>tools</strong>. This repo encodes the <strong>decision-making process</strong> that experienced researchers internalize over years — <em>when</em> to skim vs. deep-read, <em>how</em> to position a contribution, <em>which</em> engine for which query.
@@ -65,7 +73,7 @@ author_profile: false
       <span class="srs-tag srs-tag-method"><i class="fas fa-book"></i> Methodology</span> pure workflow, no dependencies
     </p>
 
-    <div class="srs-grid">
+    <div class="srs-grid srs-fadeup-stagger">
 
       <a class="srs-card" href="https://github.com/jxtse/scientific-research-skills/tree/main/skills/literature-search" target="_blank" rel="noopener">
         <div class="srs-card-head">
@@ -161,7 +169,7 @@ author_profile: false
     <h2 class="srs-section-title"><i class="fas fa-project-diagram"></i> How the Skills Compose</h2>
     <p class="srs-section-sub">A typical end-to-end research session uses four to six of these skills in sequence.</p>
 
-    <div class="srs-flow-wrap">
+    <div class="srs-flow-wrap srs-fadeup">
       <svg viewBox="0 0 1100 520" class="srs-flow" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <marker id="srs-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -245,7 +253,7 @@ author_profile: false
     <h2 class="srs-section-title"><i class="fas fa-download"></i> Install</h2>
     <p class="srs-section-sub">Each skill is a self-contained folder with a <code>SKILL.md</code> following the <a href="https://agentskills.io/" target="_blank" rel="noopener">open agent skills standard</a>. Drop into any skills directory — auto-discovered, no restart.</p>
 
-    <div class="srs-tabs" id="srs-install-tabs">
+    <div class="srs-tabs srs-fadeup" id="srs-install-tabs">
       <div class="srs-tabbar">
         <button class="srs-tab is-active" data-target="openclaw">OpenClaw</button>
         <button class="srs-tab" data-target="claude">Claude Code</button>
@@ -290,7 +298,7 @@ cp -r skills/* .agents/skills/</code></pre>
     <h2 class="srs-section-title"><i class="fas fa-key"></i> Dependencies at a Glance</h2>
     <p class="srs-section-sub">Methodology skills work out of the box. Tool-integrated skills require setup before they run.</p>
 
-    <div class="srs-table-wrap">
+    <div class="srs-table-wrap srs-fadeup">
       <table class="srs-table">
         <thead>
           <tr><th>Skill</th><th>What to configure</th><th>Where to get it</th><th>Required?</th></tr>
@@ -346,7 +354,7 @@ cp -r skills/* .agents/skills/</code></pre>
 
   <!-- =========================== FOOTER =========================== -->
   <section class="srs-footer-section">
-    <div class="srs-footer-card">
+    <div class="srs-footer-card srs-fadeup">
       <h3><i class="fas fa-code-branch"></i> Contribute a Skill</h3>
       <p>Skills are added as research workflows mature. Create <code>skills/&lt;name&gt;/SKILL.md</code> with YAML frontmatter + markdown body, focus on <em>when</em> and <em>why</em> (not just <em>how</em>), and PR with a one-paragraph description of the workflow it encodes.</p>
       <a class="srs-btn srs-btn-primary" href="https://github.com/jxtse/scientific-research-skills" target="_blank" rel="noopener"><i class="fab fa-github"></i> Open on GitHub</a>
@@ -358,6 +366,7 @@ cp -r skills/* .agents/skills/</code></pre>
 
 <script>
 (function() {
+  // Tab switching for install snippet
   var tabs = document.querySelectorAll('#srs-install-tabs .srs-tab');
   var panes = document.querySelectorAll('#srs-install-tabs .srs-code');
   tabs.forEach(function(btn) {
@@ -367,5 +376,24 @@ cp -r skills/* .agents/skills/</code></pre>
       panes.forEach(function(p){ p.classList.toggle('is-active', p.getAttribute('data-tab') === target); });
     });
   });
+
+  // Scroll fade-in via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold: 0.12, rootMargin: '0px 0px -8% 0px'});
+    document.querySelectorAll('.srs-fadeup, .srs-fadeup-stagger').forEach(function(el) {
+      io.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.srs-fadeup, .srs-fadeup-stagger').forEach(function(el) {
+      el.classList.add('is-visible');
+    });
+  }
 })();
 </script>
