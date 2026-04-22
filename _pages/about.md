@@ -108,6 +108,30 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2023.11 - 2024.08*: &nbsp;Research Intern, <a href="https://sai.pku.edu.cn/znxyenglish/" class="link-accent">Wangxuan Institute of Computer Technology</a>, **Peking University**.
 <!-- - *2023.05 - 2023.07*: &nbsp;Summer Workshop Student, <a href="https://www.comp.nus.edu.sg/" class="link-accent">School of Computer</a>, **National University of Singapore**. -->
 
+# <i class="fas fa-code-branch"></i> Open Source
+
+<div class="paper-box floating-card">
+  <div class="paper-box-image">
+    <div class="badge pulse-accent">Skills for AI Agents</div>
+    <div style="display:flex;align-items:center;justify-content:center;height:100%;background:linear-gradient(135deg,#0f172a 0%,#1e40af 60%,#0ea5e9 100%);color:#fff;border-radius:8px;padding:24px;text-align:center;">
+      <div>
+        <div style="font-size:2.4em;line-height:1;margin-bottom:10px;">🔬</div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-weight:700;font-size:1.05em;">scientific-research-skills</div>
+        <div style="opacity:0.85;font-size:0.85em;margin-top:6px;">6 workflows · MIT · OpenClaw · Claude Code · Codex</div>
+      </div>
+    </div>
+  </div>
+  <div class="paper-box-text">
+    <h3><a href="/skills/" style="color: inherit; text-decoration: none;">Scientific Research Skills</a></h3>
+    <div class="authors">High-level research methodology skills for AI coding agents</div>
+    <div class="venue">Not another tool list — each skill encodes a complete research workflow: literature search, paper reading, social-media triage, related-work survey, Zotero management, and figure generation.</div>
+    <div class="links">
+      <a href="/skills/" class="btn-accent"><i class="fas fa-home"></i> Project Page</a>
+      <a href="https://github.com/jxtse/scientific-research-skills" class="btn-accent"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+</div>
+
 # <i class="fas fa-blog"></i> Blogs
 
 <!-- Local Blog Posts Section -->
