@@ -114,3 +114,19 @@ h1:before, .anchor:before {
     font-weight: 600;
     box-shadow: 0 2px 8px rgba(254, 102, 123, 0.2);
 }
+
+/* ==========================================================================
+   FULL-WIDTH PAGE FIX
+   When a page sets `author_profile: false`, default.html adds `.page--full`
+   to the <article>. We then reset the Susy 10/12 right-floated layout so the
+   content is centered and uses the full container width.
+   ========================================================================== */
+.page.page--full {
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
