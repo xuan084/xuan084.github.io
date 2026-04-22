@@ -75,6 +75,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <div class="links">
       <a href="/cast/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
       <a href="https://arxiv.org/abs/2602.15861" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/jxtse/CAST-text-analysis" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
