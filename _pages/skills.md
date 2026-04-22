@@ -13,14 +13,11 @@ author_profile: false
   <!-- =========================== HERO =========================== -->
   <header class="srs-hero srs-hero--video">
     <div class="srs-hero-video-wrap">
-      <video
+      <img
         class="srs-hero-video"
-        autoplay loop muted playsinline preload="auto"
-        poster="{{ '/assets/videos/skills-hero-poster.jpg' | relative_url }}"
-        aria-hidden="true">
-        <source src="{{ '/assets/videos/skills-hero.webm' | relative_url }}" type="video/webm">
-        <source src="{{ '/assets/videos/skills-hero.mp4'  | relative_url }}" type="video/mp4">
-      </video>
+        src="{{ '/assets/videos/skills-hero-poster.jpg' | relative_url }}"
+        alt="Scientific Research Skills — 6 skills connected by a workflow"
+        loading="eager">
       <div class="srs-hero-video-fade"></div>
     </div>
 
