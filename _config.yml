@@ -67,6 +67,7 @@ author:
 # 添加语言设置
 languages:
   - en
+  - zh
 default_lang: "en"
 t:
   en:
@@ -77,6 +78,14 @@ t:
     educations: "Educations"
     internships: "Internships"
     blogs: "Blogs"
+  zh:
+    home: "主页"
+    about: "关于我"
+    news: "动态"
+    publications: "论文"
+    educations: "教育经历"
+    internships: "实习经历"
+    blogs: "博客"
 
 # Reading Files
 include:
