@@ -21,11 +21,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is <span class="accent-text">Xuan (Winny) Li</span> (pronounced "JIN-shee-ahng SHEE-eh"). I am a graduate student at <i class="fas fa-university"></i> **Nanjing University**. I earned my Bachelor's degree in Information and Computing Science from <i class="fas fa-university"></i> **Beijing Jiaotong University**. I was a research intern at <i class="fab fa-microsoft"></i> **Microsoft**, where I have the privilege of working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/" class="link-accent">Justin Ding</a>.
-Prior to this, I gained valuable research experience at <i class="fas fa-university"></i> **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/" class="link-accent">Xiaojun Wan</a>.
+I'm <span class="accent-text">Xuan (Winny) Li</span>, a PhD candidate in Computer Science and Engineering at <i class="fas fa-university"></i> **UNSW**. I studied Business Analytics and Accounting at <i class="fas fa-university"></i> **the University of Sydney**, where I discovered my passion for data analysis. I was fascinated by how data can tell stories, and that curiosity drove me to pursue a PhD to sharpen my skills and push boundaries. My research now focuses on <span class="primary-gradient-text">NLP and document analysis</span>, aiming to develop smarter AI for understanding unstructured text.
 
 <div class="quote-accent">
-My research focuses on leveraging <span class="primary-gradient-text">Large Language Models</span> to address complex problems.
+I see myself as someone curious and passionate about life — I enjoy exploring new things and never see challenges as scary. To me, solving problems feels like building LEGO: I love the process, and the joy that comes with making things work 😊.
 </div>
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!

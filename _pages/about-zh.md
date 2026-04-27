@@ -17,10 +17,10 @@ lang: zh
 
 <span class='anchor' id='about-me'></span>
 
-我叫 <span class="accent-text">李璇 (Winny Li)</span>。我是<i class="fas fa-university"></i> **南京大学** 的研究生，本科毕业于<i class="fas fa-university"></i> **北京交通大学** 信息与计算科学专业。我曾在<i class="fab fa-microsoft"></i> **微软** 担任研究实习生，与首席研究员 <a href="https://www.microsoft.com/en-us/research/people/juding/" class="link-accent">Justin Ding</a> 合作。在此之前，我在<i class="fas fa-university"></i> **北京大学** 万小军教授 <a href="https://wanxiaojun.github.io/" class="link-accent">Xiaojun Wan</a> 的指导下开展研究。
+大家好，我是 <span class="accent-text">李璇（Winny Li）</span>，目前在 <i class="fas fa-university"></i> **新南威尔士大学（UNSW）** 计算机科学与工程系攻读博士。本科与研究生阶段就读于 <i class="fas fa-university"></i> **悉尼大学**，专业是商业分析与会计 —— 也是在那里，我第一次感受到数据分析的魅力。数据能够讲述故事的方式让我着迷，这份好奇心驱使我继续读博，去打磨技能、突破边界。我目前的研究聚焦于 <span class="primary-gradient-text">自然语言处理与文档分析</span>，致力于让 AI 更聪明地理解非结构化文本。
 
 <div class="quote-accent">
-我的研究方向是利用<span class="primary-gradient-text">大语言模型</span>解决复杂问题。
+我是一个对生活充满好奇与热情的人 —— 喜欢尝试新事物，也从不觉得挑战可怕。在我看来，解决问题就像拼乐高：我享受这个过程，也享受让事情运转起来的那份喜悦 😊。
 </div>
 
 欢迎与我交流研究或探讨合作机会！
