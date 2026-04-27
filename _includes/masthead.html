@@ -2,14 +2,12 @@
 {% if current_lang == 'zh' %}
   {% assign home_url = '/zh/#about-me' %}
   {% assign home_label = '主页' %}
-  {% assign nav_key = 'zh' %}
-  {% assign lang_toggle_url = '/' %}
+  {% assign lang_toggle_url = page.lang_alt | default: '/' %}
   {% assign lang_toggle_label = 'EN' %}
 {% else %}
   {% assign home_url = '/#about-me' %}
   {% assign home_label = 'Homepage' %}
-  {% assign nav_key = 'en' %}
-  {% assign lang_toggle_url = '/zh/' %}
+  {% assign lang_toggle_url = page.lang_alt | default: '/zh/' %}
   {% assign lang_toggle_label = '中文' %}
 {% endif %}
 

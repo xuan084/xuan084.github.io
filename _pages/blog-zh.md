@@ -1,17 +1,17 @@
 ---
-permalink: /blog/
-title: "Blog"
-excerpt: "All blog posts"
+permalink: /zh/blog/
+title: "博客"
+excerpt: "全部博客文章"
 author_profile: true
-lang: en
-lang_alt: /zh/blog/
+lang: zh
+lang_alt: /blog/
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <span class='anchor' id='blog-list'></span>
 
-# <i class="fas fa-blog"></i> All Posts
+# <i class="fas fa-blog"></i> 全部文章
 
 <div class="blog-grid">
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
@@ -19,7 +19,7 @@ lang_alt: /zh/blog/
   <a href="{{ post.url | relative_url }}" class="blog-card-link">
     <div class="blog-card">
       <div class="blog-card-image">
-        <div class="blog-badge">{{ post.date | date: "%B, %Y" }}</div>
+        <div class="blog-badge">{{ post.date | date: "%Y 年 %-m 月" }}</div>
         {% if post.cover_image %}
         <img src="{{ post.cover_image | relative_url }}" alt="{{ post.title }}">
         {% else %}
@@ -37,6 +37,6 @@ lang_alt: /zh/blog/
 
 {% if site.posts.size == 0 %}
 <div class="quote-accent">
-  <p>No blog posts yet. Check back soon!</p>
+  <p>暂无博客文章，欢迎稍后回来看看！</p>
 </div>
 {% endif %}

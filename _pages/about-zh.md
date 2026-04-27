@@ -62,11 +62,11 @@ lang: zh
     <img src='images/TADA-pipeline.jpg' alt="CAST Framework Architecture" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</a></h3>
+    <h3><a href="/zh/cast/" style="color: inherit; text-decoration: none;">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</a></h3>
     <div class="authors"><strong>Jinxiang Xie</strong>, Zihao Li, Wei He, Rui Ding, Shi Han, Dongmei Zhang</div>
     <div class="venue">In Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</div>
     <div class="links">
-      <a href="/cast/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
+      <a href="/zh/cast/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
       <a href="https://arxiv.org/abs/2602.15861" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/jxtse/CAST-text-analysis" class="btn-accent"><i class="fab fa-github"></i> 代码</a>
     </div>
@@ -79,11 +79,11 @@ lang: zh
     <img src='images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/dsgram/" style="color: inherit; text-decoration: none;">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</a></h3>
+    <h3><a href="/zh/dsgram/" style="color: inherit; text-decoration: none;">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</a></h3>
     <div class="authors"><strong>Jinxiang Xie</strong>, Yilin Li, Xunjian Yin, Xiaojun Wan</div>
     <div class="venue">In The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)</div>
     <div class="links">
-      <a href="/dsgram/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
+      <a href="/zh/dsgram/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
       <a href="https://arxiv.org/abs/2412.12832" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/jxtse/GEC-Metrics-DSGram" class="btn-accent"><i class="fab fa-github"></i> 代码</a>
     </div>
@@ -113,11 +113,11 @@ lang: zh
     </div>
   </div>
   <div class="paper-box-text">
-    <h3><a href="/skills/" style="color: inherit; text-decoration: none;">Scientific Research Skills</a></h3>
+    <h3><a href="/zh/skills/" style="color: inherit; text-decoration: none;">Scientific Research Skills</a></h3>
     <div class="authors">面向 AI 编码 Agent 的高阶研究方法论技能库</div>
     <div class="venue">不只是工具列表 —— 每个 skill 都封装了完整的研究工作流：文献检索、论文阅读、社交媒体筛选、相关工作综述、Zotero 管理、图表生成。</div>
     <div class="links">
-      <a href="/skills/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
+      <a href="/zh/skills/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
       <a href="https://github.com/jxtse/scientific-research-skills" class="btn-accent"><i class="fab fa-github"></i> GitHub</a>
     </div>
   </div>
@@ -129,7 +129,7 @@ lang: zh
 <div class="local-blogs-section">
   <div class="local-blogs-header">
     <h3><i class="fas fa-pen-nib"></i> 最新文章</h3>
-    <a href="{{ '/blog/' | relative_url }}" class="view-all-btn">
+    <a href="{{ '/zh/blog/' | relative_url }}" class="view-all-btn">
       查看全部 <i class="fas fa-arrow-right"></i>
     </a>
   </div>

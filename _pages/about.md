@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
+lang_alt: /zh/
 redirect_from: 
   - /about/
   - /about.html
