@@ -31,8 +31,9 @@ lang_alt: /zh/dotabler/
     </div>
 
     <div class="links-bar">
-      <a href="#" class="btn-arxiv" target="_blank"><i class="fas fa-file-alt"></i> Paper</a>
-      <a href="#" class="btn-pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="https://arxiv.org/abs/2508.10311" class="btn-arxiv" target="_blank"><i class="fas fa-file-alt"></i> Paper</a>
+      <a href="/files/dotabler-paper.pdf" class="btn-pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="/files/dotabler-poster.pdf" class="btn-pdf" target="_blank"><i class="fas fa-image"></i> Poster</a>
       <a href="https://github.com/xuan084/DoTabler2025" class="btn-code" target="_blank"><i class="fab fa-github"></i> Code</a>
     </div>
   </header>
