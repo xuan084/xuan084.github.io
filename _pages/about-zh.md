@@ -17,7 +17,7 @@ lang: zh
 
 <span class='anchor' id='about-me'></span>
 
-大家好，我是 <span class="accent-text">李璇（Winny Li）</span>，目前在 <i class="fas fa-university"></i> **新南威尔士大学（UNSW）** 计算机科学与工程系攻读博士。本科与研究生阶段就读于 <i class="fas fa-university"></i> **悉尼大学**，专业是商业分析与会计 —— 也是在那里，我第一次感受到数据分析的魅力。数据能够讲述故事的方式让我着迷，这份好奇心驱使我继续读博，去打磨技能、突破边界。我目前的研究聚焦于 <span class="primary-gradient-text">自然语言处理与文档分析</span>，致力于让 AI 更聪明地理解非结构化文本。
+大家好，我是 <span class="accent-text">李暄（Winny Li）</span>，目前在 <i class="fas fa-university"></i> **新南威尔士大学（UNSW）** 计算机科学与工程系攻读博士。本科与研究生阶段就读于 <i class="fas fa-university"></i> **悉尼大学**，专业是商业分析与会计 —— 也是在那里，我第一次感受到数据分析的魅力。数据能够讲述故事的方式让我着迷，这份好奇心驱使我继续读博，去打磨技能、突破边界。我目前的研究聚焦于 <span class="primary-gradient-text">自然语言处理与文档分析</span>，致力于让 AI 更聪明地理解非结构化文本。
 
 <div class="quote-accent">
 我是一个对生活充满好奇与热情的人 —— 喜欢尝试新事物，也从不觉得挑战可怕。在我看来，解决问题就像拼乐高：我享受这个过程，也享受让事情运转起来的那份喜悦 😊。
@@ -31,7 +31,7 @@ lang: zh
     <ul>
       <li>研究方向：<span class="accent-text">大语言模型与自然语言处理</span></li>
       <li>曾在<span class="primary-gradient-text">顶级研究机构</span>实习</li>
-      <li>论文发表于 <span class="accent-text">AAAI</span>、<span class="accent-text">ACL</span></li>
+      <li>论文发表于 <span class="accent-text">ECAI</span>、<span class="accent-text">ICDAR</span></li>
     </ul>
   </div>
 
