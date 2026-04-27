@@ -54,7 +54,7 @@ lang: zh
   </div>
 </div>
 
-# <i class="fas fa-file-alt"></i> 论文发表 {#-publications}
+<h1 id="-publications"><i class="fas fa-file-alt"></i> 论文发表</h1>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
@@ -90,16 +90,16 @@ lang: zh
   </div>
 </div>
 
-# <i class="fas fa-graduation-cap"></i> 教育经历 {#-educations}
+<h1 id="-educations"><i class="fas fa-graduation-cap"></i> 教育经历</h1>
 - *2025.09 - 至今*：&nbsp;<span class="primary-gradient-text">南京大学 匡亚明学院</span> 理学硕士
 - *2021.09 - 2025.06*：&nbsp;<span class="primary-gradient-text">北京交通大学</span> 信息与计算科学 理学学士
 
-# <i class="fas fa-laptop-code"></i> 实习经历 {#-internships}
+<h1 id="-internships"><i class="fas fa-laptop-code"></i> 实习经历</h1>
 - *2025.08 - 至今*：&nbsp;<a href="https://www.asintelligence.xyz/" class="link-accent">人工智能科学实验室</a> 研究实习生，**新加坡国立大学**
 - *2024.08 - 2025.08*：&nbsp;<a href="https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/" class="link-accent">数据、知识与智能 (DKI) 组</a> 研究实习生，**微软**
 - *2023.11 - 2024.08*：&nbsp;<a href="https://sai.pku.edu.cn/znxyenglish/" class="link-accent">王选计算机研究所</a> 研究实习生，**北京大学**
 
-# <i class="fas fa-code-branch"></i> 开源项目 {#-open-source}
+<h1 id="-open-source"><i class="fas fa-code-branch"></i> 开源项目</h1>
 
 <div class="paper-box floating-card">
   <div class="paper-box-image">
@@ -123,7 +123,7 @@ lang: zh
   </div>
 </div>
 
-# <i class="fas fa-blog"></i> 博客 {#-blogs}
+<h1 id="-blogs"><i class="fas fa-blog"></i> 博客</h1>
 
 {% if site.posts.size > 0 %}
 <div class="local-blogs-section">
