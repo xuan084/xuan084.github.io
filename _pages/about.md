@@ -62,17 +62,16 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ACL 2026 Findings</div>
-    <img src='images/TADA-pipeline.jpg' alt="CAST Framework Architecture" width="100%">
+    <div class="badge pulse-accent">ECAI 2025</div>
+    <img src='images/dotabler-thumb.png' alt="DoTabler Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</a></h3>
-    <div class="authors"><strong>Jinxiang Xie</strong>, Zihao Li, Wei He, Rui Ding, Shi Han, Dongmei Zhang</div>
-    <div class="venue">In Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</div>
+    <h3><a href="/dotabler/" style="color: inherit; text-decoration: none;">From Surface to Semantics: Semantic Structure Parsing for Table-Centric Document Analysis</a></h3>
+    <div class="authors"><strong>Xuan Li</strong>, Jialiang Dong, Raymond Wong</div>
+    <div class="venue">In Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)</div>
     <div class="links">
-      <a href="/cast/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
-      <a href="https://arxiv.org/abs/2602.15861" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/jxtse/CAST-text-analysis" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="/dotabler/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://github.com/xuan084/DoTabler2025" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
