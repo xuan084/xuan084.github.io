@@ -73,7 +73,6 @@ t:
   en:
     home: "Home"
     about: "About Me"
-    news: "News"
     publications: "Publications"
     educations: "Educations"
     internships: "Internships"
@@ -81,7 +80,6 @@ t:
   zh:
     home: "主页"
     about: "关于我"
-    news: "动态"
     publications: "论文"
     educations: "教育经历"
     internships: "实习经历"

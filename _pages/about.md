@@ -58,10 +58,6 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
 </div>
 
-<!-- # <i class="fas fa-fire"></i> News
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). <span class="accent-text">See you in Philadelphia!</span>
-- *2024.08*: &nbsp;I have joined <span class="primary-gradient-text">Microsoft</span> as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs. -->
-
 # <i class="fas fa-file-alt"></i> Publications 
 
 <div class='paper-box floating-card'>

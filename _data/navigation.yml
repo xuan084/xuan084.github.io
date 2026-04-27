@@ -3,9 +3,6 @@ main:
   - title: "about"
     url: "/#about-me"
 
-  - title: "news"
-    url: "/#-news"
-
   - title: "publications"
     url: "/#-publications"
 
