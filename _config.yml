@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinxiang Xie"
+title                    : "Xuan (Winny) Li"
 title_separator          : "-"
 subtitle                 : 
-name                     : "Jinxiang Xie"
+name                     : "Xuan (Winny) Li"
 description              : ""
-url                     : "https://jxtse.github.io"
+url                     : "https://xuan084.github.io"
 baseurl                 : ""
-repository               : "jxtse/jxtse.github.io"
+repository               : "xuan084/xuan084.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -27,10 +27,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jinxiang Xie"
+  name             : "Xuan (Winny) Li"
   avatar           : "images/avatar.jpg"
-  bio              : "Nanjing University"
-  location         : "Nanjing, China"
+  bio              : " The University of New South Wales (UNSW)"
+  location         : "Sydney, Australia"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=r-i4KU8AAAAJ&hl=en"
