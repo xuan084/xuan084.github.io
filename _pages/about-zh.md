@@ -54,6 +54,11 @@ lang: zh
   </div>
 </div>
 
+<h1 id="-educations"><i class="fas fa-graduation-cap"></i> 教育经历</h1>
+- *2023.09 - 2027.09（预计）*：&nbsp;<span class="primary-gradient-text">新南威尔士大学（UNSW）</span> 计算机科学博士。研究方向：大语言模型（LLM）在商业领域的应用。
+- *2018.03 - 2021.12*：&nbsp;<span class="primary-gradient-text">悉尼大学</span> 商科学士（荣誉），专业会计与商业分析荣誉方向。*副校长全球流动奖学金*。
+- *2019.07 - 2019.08*：&nbsp;<span class="primary-gradient-text">哈佛大学商学院</span> 国际商务暑期项目。
+
 <h1 id="-publications"><i class="fas fa-file-alt"></i> 论文发表</h1>
 
 <ol class="publication-list">
@@ -94,11 +99,6 @@ lang: zh
     </div>
   </div>
 </div>
-
-<h1 id="-educations"><i class="fas fa-graduation-cap"></i> 教育经历</h1>
-- *2023.09 - 2027.09（预计）*：&nbsp;<span class="primary-gradient-text">新南威尔士大学（UNSW）</span> 计算机科学博士。研究方向：大语言模型（LLM）在商业领域的应用。
-- *2018.03 - 2021.12*：&nbsp;<span class="primary-gradient-text">悉尼大学</span> 商科学士（荣誉），专业会计与商业分析荣誉方向。*副校长全球流动奖学金*。
-- *2019.07 - 2019.08*：&nbsp;<span class="primary-gradient-text">哈佛大学商学院</span> 国际商务暑期项目。
 
 <h1 id="-work-experience"><i class="fas fa-briefcase"></i> 工作经历</h1>
 - *2024.06 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW 商学院</a> 研究助理。基于大语言模型的年报分析；用神经网络与马尔可夫链做员工任期与职业路径预测。

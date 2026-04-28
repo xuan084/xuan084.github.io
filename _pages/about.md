@@ -58,6 +58,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
 </div>
 
+# <i class="fas fa-graduation-cap"></i> Educations
+- *2023.09 - 2027.09 (expected)*: &nbsp;Ph.D. in Computer Science, <span class="primary-gradient-text">The University of New South Wales (UNSW)</span>. Research area: Application of Large Language Models (LLMs) in Business.
+- *2018.03 - 2021.12*: &nbsp;Bachelor of Commerce (Honours), Professional Accounting & Business Analytics, <span class="primary-gradient-text">The University of Sydney</span>. *Vice Chancellor's Global Mobility Scholarship.*
+- *2019.07 - 2019.08*: &nbsp;Summer School in International Business, <span class="primary-gradient-text">Harvard Business School</span>.
+
 # <i class="fas fa-file-alt"></i> Publications
 
 <ol class="publication-list">
@@ -98,13 +103,6 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </div>
   </div>
 </div>
-
-<!--- Qiyang Chen, Yuezhi Wang, **Jinxiang Xie**, Guozheng Li, Chi Harold Liu. $M^3$ Trader: Multimodal Macro–Micro Inference with LLM-Guided Reinforcement Learning for Quantitative Trading. **Under Review**.-->
-
-# <i class="fas fa-graduation-cap"></i> Educations
-- *2023.09 - 2027.09 (expected)*: &nbsp;Ph.D. in Computer Science, <span class="primary-gradient-text">The University of New South Wales (UNSW)</span>. Research area: Application of Large Language Models (LLMs) in Business.
-- *2018.03 - 2021.12*: &nbsp;Bachelor of Commerce (Honours), Professional Accounting & Business Analytics, <span class="primary-gradient-text">The University of Sydney</span>. *Vice Chancellor's Global Mobility Scholarship.*
-- *2019.07 - 2019.08*: &nbsp;Summer School in International Business, <span class="primary-gradient-text">Harvard Business School</span>.
 
 # <i class="fas fa-briefcase"></i> Work Experience
 - *2024.06 - Present*: &nbsp;Research Assistant, Business School, <a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW</a>. LLM-based annual report analysis; employee tenure & career-path prediction with neural networks and Markov chains.
