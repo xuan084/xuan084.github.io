@@ -37,7 +37,10 @@ The questions after my talk were sharp but generous. A few left me thinking abou
 ![Bologna](/images/2026-04-28-ecai-2025-presentation/3.jpg)
 *Bologna's red rooftops between sessions.*
 
-Beyond the science, ECAI was the kind of trip that reminds you research is also a community. The conference banquet had us trading stories across institutions and continents, and I came home with a stack of business cards and a longer list of papers to read than ideas of my own — a quiet reminder, gratefully accepted, of how much there is still to learn.
+Beyond the science, ECAI was the kind of trip that reminds you research is also a community. The conference social dinner brought together scholars from across continents around long shared tables — and across plates of *tagliatelle al ragù*, *mortadella*, and other Bologna classics, conversations drifted between research, cities, and the small detours that bring people to the same room. I came home with a stack of business cards, a longer list of papers to read than ideas of my own, and the quiet reminder, gratefully accepted, of how much there is still to learn.
+
+![ECAI 2025 social dinner in Bologna](/images/2026-04-28-ecai-2025-presentation/4.jpg)
+*The ECAI social dinner — local Bolognese cuisine and conversations that drifted from papers to passport stamps.*
 
 Thank you to my coauthors and supervisors, to the ECAI organizers, and to everyone whose questions, encouragement, and casual hallway chat shaped this trip into what it was.
 
@@ -60,6 +63,9 @@ Thank you to my coauthors and supervisors, to the ECAI organizers, and to everyo
 ![博洛尼亚](/images/2026-04-28-ecai-2025-presentation/3.jpg)
 *会议间隙的博洛尼亚红屋顶。*
 
-科学之外，ECAI 也再次提醒我，研究本身就是一种社群。会议晚宴上听到的跨机构、跨大陆的故事；最后带回来的是一摞名片，和一份比自己的想法更长的论文待读清单 —— 一个温柔的提醒：还有那么多想学的东西。
+科学之外，ECAI 也再次提醒我，研究本身就是一种社群。会议晚宴把来自世界各地的学者聚到长桌两侧 —— 一边品尝着博洛尼亚当地的 *tagliatelle al ragù*、*mortadella* 等地道美食，一边在课题、城市与人生小弯路之间随意游走地聊着。最后带回来的，是一摞名片、一份比自己想法更长的论文待读清单，和一个温柔的提醒：还有那么多想学的东西。
+
+![ECAI 2025 晚宴](/images/2026-04-28-ecai-2025-presentation/4.jpg)
+*ECAI 晚宴上的博洛尼亚地道美食 —— 话题在论文和护照印章之间随意切换。*
 
 谢谢我的合作者和导师，谢谢 ECAI 的组织者，也谢谢每一位用问题、鼓励和走廊上的随手一聊，把这段旅程塑造成它该有的样子的人。
