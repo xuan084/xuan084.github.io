@@ -108,30 +108,6 @@ lang: zh
 - *2019.07 - 2020.12*：&nbsp;**悉尼大学** 财务部 财务专员。
 - *2018.12 - 2019.02*：&nbsp;**普华永道（PwC）**（北京）审计实习生。
 
-<h1 id="-open-source"><i class="fas fa-code-branch"></i> 开源项目</h1>
-
-<div class="paper-box floating-card">
-  <div class="paper-box-image">
-    <div class="badge pulse-accent">面向 AI Agent 的技能库</div>
-    <div style="display:flex;align-items:center;justify-content:center;height:100%;background:linear-gradient(135deg,#0f172a 0%,#1e40af 60%,#0ea5e9 100%);color:#fff;border-radius:8px;padding:24px;text-align:center;">
-      <div>
-        <div style="font-size:2.4em;line-height:1;margin-bottom:10px;">🔬</div>
-        <div style="font-family:ui-monospace,Menlo,monospace;font-weight:700;font-size:1.05em;">scientific-research-skills</div>
-        <div style="opacity:0.85;font-size:0.85em;margin-top:6px;">6 个工作流 · MIT · OpenClaw · Claude Code · Codex</div>
-      </div>
-    </div>
-  </div>
-  <div class="paper-box-text">
-    <h3><a href="/zh/skills/" style="color: inherit; text-decoration: none;">Scientific Research Skills</a></h3>
-    <div class="authors">面向 AI 编码 Agent 的高阶研究方法论技能库</div>
-    <div class="venue">不只是工具列表 —— 每个 skill 都封装了完整的研究工作流：文献检索、论文阅读、社交媒体筛选、相关工作综述、Zotero 管理、图表生成。</div>
-    <div class="links">
-      <a href="/zh/skills/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
-      <a href="https://github.com/jxtse/scientific-research-skills" class="btn-accent"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </div>
-</div>
-
 <h1 id="-blogs"><i class="fas fa-blog"></i> 博客</h1>
 
 {% assign zh_posts = site.posts | where: 'lang', 'zh' %}

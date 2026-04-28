@@ -520,6 +520,41 @@
     }
   }
 
+  /* Two photos side by side */
+  .post-photos-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+    margin: 2em 0;
+    clear: both;
+
+    figure {
+      margin: 0;
+      text-align: center;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 14px rgba(0,0,0,0.08);
+      }
+
+      figcaption {
+        margin-top: 0.5em;
+        font-size: 0.82em;
+        color: #6b7280;
+        font-style: italic;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .post-photos-row {
+      grid-template-columns: 1fr;
+    }
+  }
+
   /* On narrow screens, don't float — center full width */
   @media (max-width: 768px) {
     .post-photo {
