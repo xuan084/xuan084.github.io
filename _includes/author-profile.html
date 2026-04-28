@@ -116,7 +116,7 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.resume %}
-        <li><a href="{{ author.resume | relative_url }}" download><i class="fas fa-fw fa-file-pdf"></i> {% if page.lang == 'zh' %}简历{% else %}Resume{% endif %}</a></li>
+        <li><a href="{{ author.resume | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf"></i> {% if page.lang == 'zh' %}简历{% else %}Resume{% endif %}</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
@@ -214,7 +214,7 @@
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
       {% if author.resume %}
-        <a href="{{ author.resume | relative_url }}" download aria-label="Resume"><i class="fas fa-fw fa-file-pdf"></i></a>
+        <a href="{{ author.resume | relative_url }}" target="_blank" rel="noopener" aria-label="Resume"><i class="fas fa-fw fa-file-pdf"></i></a>
       {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
