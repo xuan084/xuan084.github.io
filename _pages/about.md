@@ -58,12 +58,27 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
 </div>
 
-# <i class="fas fa-file-alt"></i> Publications 
+# <i class="fas fa-file-alt"></i> Publications
+
+<ol class="publication-list">
+  <li>
+    <strong>Xuan Li</strong>, Jialiang Dong, Raymond Wong.
+    "<a href="/dotabler/" class="link-accent">From Surface to Semantics: Semantic Structure Parsing for Table-Centric Document Analysis</a>."
+    In <em>Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)</em>, pp. 3234–3241. IOS Press, 2025.
+  </li>
+  <li>
+    Suxin Yu, <strong>Xuan Li</strong>, Boris S. Choy.
+    "<a href="https://www.worldscientific.com/doi/10.1142/S0218488523400180" class="link-accent">A new inverse extended Weibull distribution for modelling insurance loss data</a>."
+    <em>International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</em>, 31(supp02): 307–322, 2023.
+  </li>
+</ol>
+
+# <i class="fas fa-star"></i> Featured Publications
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ECAI 2025</div>
-    <img src='images/dotabler-thumb.png' alt="DoTabler Framework Overview" width="100%">
+    <img src='/images/dotabler-thumb.png' alt="DoTabler Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3><a href="/dotabler/" style="color: inherit; text-decoration: none;">From Surface to Semantics: Semantic Structure Parsing for Table-Centric Document Analysis</a></h3>
@@ -75,23 +90,6 @@ Feel free to reach out if you'd like to discuss research or explore potential co
       <a href="/files/dotabler-paper.pdf" class="btn-accent" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
       <a href="/files/dotabler-poster.pdf" class="btn-accent" target="_blank"><i class="fas fa-image"></i> Poster</a>
       <a href="https://github.com/xuan084/DoTabler2025" class="btn-accent"><i class="fab fa-github"></i> Code</a>
-    </div>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge pulse-accent">AAAI 2025</div>
-    <img src='images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3><a href="/dsgram/" style="color: inherit; text-decoration: none;">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</a></h3>
-    <div class="authors"><strong>Jinxiang Xie</strong>, Yilin Li, Xunjian Yin, Xiaojun Wan</div>
-    <div class="venue">In The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)</div>
-    <div class="links">
-      <a href="/dsgram/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
-      <a href="https://arxiv.org/abs/2412.12832" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/jxtse/GEC-Metrics-DSGram" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
