@@ -90,13 +90,17 @@ lang: zh
 </div>
 
 <h1 id="-educations"><i class="fas fa-graduation-cap"></i> 教育经历</h1>
-- *2025.09 - 至今*：&nbsp;<span class="primary-gradient-text">南京大学 匡亚明学院</span> 理学硕士
-- *2021.09 - 2025.06*：&nbsp;<span class="primary-gradient-text">北京交通大学</span> 信息与计算科学 理学学士
+- *2023.09 - 2027.09（预计）*：&nbsp;<span class="primary-gradient-text">新南威尔士大学（UNSW）</span> 计算机科学博士。研究方向：大语言模型（LLM）在商业领域的应用。
+- *2018.03 - 2021.12*：&nbsp;<span class="primary-gradient-text">悉尼大学</span> 商科学士（荣誉），专业会计与商业分析荣誉方向。*副校长全球流动奖学金*。
+- *2019.07 - 2019.08*：&nbsp;<span class="primary-gradient-text">哈佛大学商学院</span> 国际商务暑期项目。
 
 <h1 id="-work-experience"><i class="fas fa-briefcase"></i> 工作经历</h1>
-- *2025.08 - 至今*：&nbsp;<a href="https://www.asintelligence.xyz/" class="link-accent">人工智能科学实验室</a> 研究实习生，**新加坡国立大学**
-- *2024.08 - 2025.08*：&nbsp;<a href="https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/" class="link-accent">数据、知识与智能 (DKI) 组</a> 研究实习生，**微软**
-- *2023.11 - 2024.08*：&nbsp;<a href="https://sai.pku.edu.cn/znxyenglish/" class="link-accent">王选计算机研究所</a> 研究实习生，**北京大学**
+- *2024.06 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW 商学院</a> 研究助理。基于大语言模型的年报分析；用神经网络与马尔可夫链做员工任期与职业路径预测。
+- *2023.10 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a> 助教 &mdash; COMP6714 *信息检索与网络搜索*；COMM5007 *商业编程*。
+- *2023.10 - 至今*：&nbsp;<a href="https://www.sydney.edu.au/business/" class="link-accent">悉尼大学商学院</a> 助教 &mdash; QBUS5001 *商业数据分析基础*；BUSS6002 *商业数据科学*。
+- *2022.07 - 2023.02*：&nbsp;**朗盛资本**（北京）风险投资部医疗组 实习生。
+- *2019.07 - 2020.12*：&nbsp;**悉尼大学** 财务部 财务专员。
+- *2018.12 - 2019.02*：&nbsp;**普华永道（PwC）**（北京）审计实习生。
 
 <h1 id="-open-source"><i class="fas fa-code-branch"></i> 开源项目</h1>
 

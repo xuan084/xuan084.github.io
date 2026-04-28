@@ -96,14 +96,17 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <!--- Qiyang Chen, Yuezhi Wang, **Jinxiang Xie**, Guozheng Li, Chi Harold Liu. $M^3$ Trader: Multimodal Macro–Micro Inference with LLM-Guided Reinforcement Learning for Quantitative Trading. **Under Review**.-->
 
 # <i class="fas fa-graduation-cap"></i> Educations
-- *2025.09 - Present*: &nbsp;Master of Science at <span class="primary-gradient-text">Kuang Yaming Honors School, Nanjing University</span>.
-- *2021.09 - 2025.06*: &nbsp;Bachelor of Science in Information and Computing Science, <span class="primary-gradient-text">Beijing Jiaotong University</span>.
+- *2023.09 - 2027.09 (expected)*: &nbsp;Ph.D. in Computer Science, <span class="primary-gradient-text">The University of New South Wales (UNSW)</span>. Research area: Application of Large Language Models (LLMs) in Business.
+- *2018.03 - 2021.12*: &nbsp;Bachelor of Commerce (Honours), Professional Accounting & Business Analytics, <span class="primary-gradient-text">The University of Sydney</span>. *Vice Chancellor's Global Mobility Scholarship.*
+- *2019.07 - 2019.08*: &nbsp;Summer School in International Business, <span class="primary-gradient-text">Harvard Business School</span>.
 
 # <i class="fas fa-briefcase"></i> Work Experience
-- *2025.08 - Present*: &nbsp;Research Intern, <a href="https://www.asintelligence.xyz/" class="link-accent">Artificial Scientific Intelligence Lab</a>, **National University of Singapore**.
-- *2024.08 - 2025.08*: &nbsp;Research Intern, <a href="https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/" class="link-accent">Data, Knowledge and Intelligence (DKI) Group</a>, **Microsoft**.
-- *2023.11 - 2024.08*: &nbsp;Research Intern, <a href="https://sai.pku.edu.cn/znxyenglish/" class="link-accent">Wangxuan Institute of Computer Technology</a>, **Peking University**.
-<!-- - *2023.05 - 2023.07*: &nbsp;Summer Workshop Student, <a href="https://www.comp.nus.edu.sg/" class="link-accent">School of Computer</a>, **National University of Singapore**. -->
+- *2024.06 - Present*: &nbsp;Research Assistant, Business School, <a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW</a>. LLM-based annual report analysis; employee tenure & career-path prediction with neural networks and Markov chains.
+- *2023.10 - Present*: &nbsp;Academic Tutor, <a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a> &mdash; COMP6714 *Information Retrieval and Web Search*; COMM5007 *Coding for Business*.
+- *2023.10 - Present*: &nbsp;Academic Tutor, Business School, <a href="https://www.sydney.edu.au/business/" class="link-accent">The University of Sydney</a> &mdash; QBUS5001 *Foundations of Data Analysis for Business*; BUSS6002 *Data Science in Business*.
+- *2022.07 - 2023.02*: &nbsp;Intern, Medical Group · Venture Capital Department, **Lapam Capital**, Beijing.
+- *2019.07 - 2020.12*: &nbsp;Finance Officer, Finance Team, **The University of Sydney**.
+- *2018.12 - 2019.02*: &nbsp;Auditing Intern, **PricewaterhouseCoopers (PwC)**, Beijing.
 
 # <i class="fas fa-code-branch"></i> Open Source
 
