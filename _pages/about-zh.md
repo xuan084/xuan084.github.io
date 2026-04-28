@@ -134,7 +134,8 @@ lang: zh
 
 <h1 id="-blogs"><i class="fas fa-blog"></i> 博客</h1>
 
-{% if site.posts.size > 0 %}
+{% assign zh_posts = site.posts | where: 'lang', 'zh' %}
+{% if zh_posts.size > 0 %}
 <div class="local-blogs-section">
   <div class="local-blogs-header">
     <h3><i class="fas fa-pen-nib"></i> 最新文章</h3>
@@ -143,7 +144,7 @@ lang: zh
     </a>
   </div>
   <div class="blog-grid">
-    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% assign sorted_posts = zh_posts | sort: 'date' | reverse %}
     {% for post in sorted_posts limit:9 %}
     <a href="{{ post.url | relative_url }}" class="blog-card-link">
       <div class="blog-card">

@@ -14,7 +14,8 @@ lang_alt: /zh/blog/
 # <i class="fas fa-blog"></i> All Posts
 
 <div class="blog-grid">
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% assign en_posts = site.posts | where: 'lang', 'en' %}
+{% assign sorted_posts = en_posts | sort: 'date' | reverse %}
 {% for post in sorted_posts %}
   <a href="{{ post.url | relative_url }}" class="blog-card-link">
     <div class="blog-card">
@@ -35,7 +36,7 @@ lang_alt: /zh/blog/
 {% endfor %}
 </div>
 
-{% if site.posts.size == 0 %}
+{% if sorted_posts.size == 0 %}
 <div class="quote-accent">
   <p>No blog posts yet. Check back soon!</p>
 </div>

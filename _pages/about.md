@@ -139,7 +139,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 # <i class="fas fa-blog"></i> Blogs
 
 <!-- Local Blog Posts Section -->
-{% if site.posts.size > 0 %}
+{% assign en_posts = site.posts | where: 'lang', 'en' %}
+{% if en_posts.size > 0 %}
 <div class="local-blogs-section">
   <div class="local-blogs-header">
     <h3><i class="fas fa-pen-nib"></i> Latest Posts</h3>
@@ -148,7 +149,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     </a>
   </div>
   <div class="blog-grid">
-    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% assign sorted_posts = en_posts | sort: 'date' | reverse %}
     {% for post in sorted_posts limit:9 %}
     <a href="{{ post.url | relative_url }}" class="blog-card-link">
       <div class="blog-card">

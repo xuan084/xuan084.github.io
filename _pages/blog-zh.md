@@ -14,7 +14,8 @@ lang_alt: /blog/
 # <i class="fas fa-blog"></i> 全部文章
 
 <div class="blog-grid">
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% assign zh_posts = site.posts | where: 'lang', 'zh' %}
+{% assign sorted_posts = zh_posts | sort: 'date' | reverse %}
 {% for post in sorted_posts %}
   <a href="{{ post.url | relative_url }}" class="blog-card-link">
     <div class="blog-card">
@@ -35,7 +36,7 @@ lang_alt: /blog/
 {% endfor %}
 </div>
 
-{% if site.posts.size == 0 %}
+{% if sorted_posts.size == 0 %}
 <div class="quote-accent">
   <p>暂无博客文章，欢迎稍后回来看看！</p>
 </div>
