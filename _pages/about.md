@@ -71,6 +71,9 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <div class="venue">In Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)</div>
     <div class="links">
       <a href="/dotabler/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://arxiv.org/abs/2508.10311" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+      <a href="/files/dotabler-paper.pdf" class="btn-accent" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="/files/dotabler-poster.pdf" class="btn-accent" target="_blank"><i class="fas fa-image"></i> Poster</a>
       <a href="https://github.com/xuan084/DoTabler2025" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>

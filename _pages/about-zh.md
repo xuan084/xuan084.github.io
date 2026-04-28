@@ -67,6 +67,9 @@ lang: zh
     <div class="venue">In Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)</div>
     <div class="links">
       <a href="/zh/dotabler/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
+      <a href="https://arxiv.org/abs/2508.10311" class="btn-accent"><i class="fas fa-file-alt"></i> 论文</a>
+      <a href="/files/dotabler-paper.pdf" class="btn-accent" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="/files/dotabler-poster.pdf" class="btn-accent" target="_blank"><i class="fas fa-image"></i> 海报</a>
       <a href="https://github.com/xuan084/DoTabler2025" class="btn-accent"><i class="fab fa-github"></i> 代码</a>
     </div>
   </div>
