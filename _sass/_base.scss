@@ -502,14 +502,14 @@
     &:nth-of-type(odd) {
       float: right;
       margin-left: 1.6em;
-      clear: right;
+      clear: both;
     }
 
     /* even-indexed photos float left, text wraps on the right */
     &:nth-of-type(even) {
       float: left;
       margin-right: 1.6em;
-      clear: left;
+      clear: both;
     }
   }
 

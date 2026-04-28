@@ -605,7 +605,7 @@ body {
 /* 小红书风格的网格布局 */
 .blog-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 360px)) !important;
   gap: 1.5rem !important;
   margin: 2rem 0 !important;
 }
