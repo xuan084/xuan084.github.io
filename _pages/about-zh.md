@@ -59,7 +59,7 @@ lang: zh
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ECAI 2025</div>
-    <img src='images/dotabler-thumb.png' alt="DoTabler Framework Overview" width="100%">
+    <img src='/images/dotabler-thumb.png' alt="DoTabler Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3><a href="/zh/dotabler/" style="color: inherit; text-decoration: none;">从表层到语义：面向表格中心的文档结构语义解析</a></h3>
@@ -75,7 +75,7 @@ lang: zh
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">AAAI 2025</div>
-    <img src='images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
+    <img src='/images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3><a href="/zh/dsgram/" style="color: inherit; text-decoration: none;">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</a></h3>
