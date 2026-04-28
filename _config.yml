@@ -34,6 +34,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=r-i4KU8AAAAJ&hl=en"
+  resume           : "/files/xuan-li-resume.pdf"
   email            : "xuli0545@outlook.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -75,14 +76,14 @@ t:
     about: "About Me"
     publications: "Publications"
     educations: "Educations"
-    internships: "Internships"
+    work_experience: "Work Experience"
     blogs: "Blogs"
   zh:
     home: "主页"
     about: "关于我"
     publications: "论文"
     educations: "教育经历"
-    internships: "实习经历"
+    work_experience: "工作经历"
     blogs: "博客"
 
 # Reading Files
