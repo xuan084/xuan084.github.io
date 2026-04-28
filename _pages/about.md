@@ -62,6 +62,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <ol class="publication-list">
   <li>
+    Jingtian Wei, <strong>Xuan Li</strong>, Hongen Lu.
+    "<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=r-i4KU8AAAAJ&amp;citation_for_view=r-i4KU8AAAAJ:qjMakFHDy7sC" class="link-accent">Heuristic Conductance-Aware Local Clustering for Heterogeneous Hypergraphs</a>."
+    <em>Algorithms</em>, 19(1), 2026. MDPI.
+  </li>
+  <li>
     <strong>Xuan Li</strong>, Jialiang Dong, Raymond Wong.
     "<a href="/dotabler/" class="link-accent">From Surface to Semantics: Semantic Structure Parsing for Table-Centric Document Analysis</a>."
     In <em>Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)</em>, pp. 3234–3241. IOS Press, 2025.
