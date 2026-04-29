@@ -40,20 +40,20 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
   
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-pen-fancy"></i> Content Creator</h3>
+    <h3><i class="fas fa-chalkboard-user"></i> Educator</h3>
     <ul>
-      <li>Technical blogs with <span class="accent-text">500K+ views</span></li>
-      <li>Active on <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e" class="link-accent">Xiaohongshu</a></li>
-      <li><a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ" class="link-accent">Articles</a> about <span class="primary-gradient-text">Tech & Humanities</span></li>
+      <li>Teaching at <span class="primary-gradient-text">UNSW</span> &amp; <span class="primary-gradient-text">USyd</span></li>
+      <li>Both <span class="accent-text">Business</span> and <span class="accent-text">CS</span> courses</li>
+      <li>From <span class="accent-text">data analytics</span> to <span class="accent-text">info retrieval</span></li>
     </ul>
   </div>
-  
+
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-globe-asia"></i> Life Explorer</h3>
     <ul>
-      <li>Visited <span class="accent-text">9 countries</span> worldwide</li>
-      <li>Traveled to <span class="accent-text">32 provinces</span> in China</li>
-      <li>Rich experience in <span class="primary-gradient-text">social work</span></li>
+      <li>Certified <span class="accent-text">Barista</span>, <span class="accent-text">Bartender</span> &amp; <span class="accent-text">Tea Master</span></li>
+      <li>Documenting <span class="primary-gradient-text">life and food</span> on the road</li>
+      <li>Visited <span class="accent-text">8 countries</span> worldwide</li>
     </ul>
   </div>
 </div>

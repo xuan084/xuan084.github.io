@@ -17,7 +17,7 @@ lang: zh
 
 <span class='anchor' id='about-me'></span>
 
-大家好，我是 <span class="accent-text">李暄（Winny Li）</span>，目前在 <i class="fas fa-university"></i> **新南威尔士大学（UNSW）** 计算机科学与工程系攻读博士。本科与研究生阶段就读于 <i class="fas fa-university"></i> **悉尼大学**，专业是商业分析与会计 —— 也是在那里，我第一次感受到数据分析的魅力。数据能够讲述故事的方式让我着迷，这份好奇心驱使我继续读博，去打磨技能、突破边界。我目前的研究聚焦于 <span class="primary-gradient-text">自然语言处理与文档分析</span>，致力于让 AI 更聪明地理解非结构化文本。
+大家好，我是 <span class="accent-text">李暄（Winny Li）</span>，目前在 <i class="fas fa-university"></i> **新南威尔士大学（UNSW）** 计算机科学与工程系攻读博士学位。本科就读于 <i class="fas fa-university"></i> **悉尼大学**，专业是商业分析与会计 —— 也是在那里，我第一次感受到数据分析的魅力。数据能够讲述故事的方式让我着迷，这份好奇心驱使我继续读博，去打磨技能、突破边界。我目前的研究聚焦于 <span class="primary-gradient-text">自然语言处理与文档分析</span>，致力于让 AI 更聪明地理解非结构化文本。
 
 <div class="quote-accent">
 我是一个对生活充满好奇与热情的人 —— 喜欢尝试新事物，也从不觉得挑战可怕。在我看来，解决问题就像拼乐高：我享受这个过程，也享受让事情运转起来的那份喜悦 😊。
@@ -29,27 +29,27 @@ lang: zh
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-microscope"></i> AI 研究者</h3>
     <ul>
-      <li>研究方向：<span class="accent-text">大语言模型与自然语言处理</span></li>
+      <li>研究方向：<span class="accent-text">大语言模型与应用</span></li>
       <li>曾在<span class="primary-gradient-text">顶级研究机构</span>实习</li>
       <li>论文发表于 <span class="accent-text">ECAI</span>、<span class="accent-text">ICDAR</span></li>
     </ul>
   </div>
 
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-pen-fancy"></i> 内容创作者</h3>
+    <h3><i class="fas fa-chalkboard-user"></i> 教育者</h3>
     <ul>
-      <li>技术博客累计 <span class="accent-text">50 万+ 阅读量</span></li>
-      <li>活跃于 <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e" class="link-accent">小红书</a></li>
-      <li>关于 <span class="primary-gradient-text">科技与人文</span> 的 <a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ" class="link-accent">公众号文章</a></li>
+      <li>任教于 <span class="primary-gradient-text">UNSW</span> 与 <span class="primary-gradient-text">悉尼大学</span></li>
+      <li><span class="accent-text">商科</span> 与 <span class="accent-text">计算机</span> 课程双线开课</li>
+      <li>从 <span class="accent-text">数据分析</span> 到 <span class="accent-text">信息检索</span></li>
     </ul>
   </div>
 
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-globe-asia"></i> 生活探索者</h3>
     <ul>
-      <li>足迹遍及 <span class="accent-text">9 个国家</span></li>
-      <li>走过中国 <span class="accent-text">32 个省份</span></li>
-      <li>丰富的<span class="primary-gradient-text">社会工作</span>经历</li>
+      <li><span class="accent-text">咖啡师 · 调酒师 · 茶艺师</span> 三证在手</li>
+      <li>探索并记录 <span class="primary-gradient-text">生活与美食</span></li>
+      <li>足迹遍及 <span class="accent-text">8 个国家</span></li>
     </ul>
   </div>
 </div>
