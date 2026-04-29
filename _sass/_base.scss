@@ -477,11 +477,12 @@
     }
   }
 
-  /* Inline post photos — float so text wraps around */
+  /* Inline post photos — centered, each on its own line so text is never squeezed */
   .post-photo {
-    width: 42%;
-    margin: 0.4em 0 1em;
+    max-width: 65%;
+    margin: 1.8em auto;
     text-align: center;
+    clear: both;
 
     img {
       max-width: 100%;
@@ -496,20 +497,6 @@
       color: #6b7280;
       font-style: italic;
       line-height: 1.5;
-    }
-
-    /* odd-indexed photos float right, text wraps on the left */
-    &:nth-of-type(odd) {
-      float: right;
-      margin-left: 1.6em;
-      clear: both;
-    }
-
-    /* even-indexed photos float left, text wraps on the right */
-    &:nth-of-type(even) {
-      float: left;
-      margin-right: 1.6em;
-      clear: both;
     }
   }
 
@@ -555,13 +542,10 @@
     }
   }
 
-  /* On narrow screens, don't float — center full width */
   @media (max-width: 768px) {
     .post-photo {
-      width: 100%;
-      float: none !important;
-      margin: 1.4em auto !important;
-      clear: both !important;
+      max-width: 100%;
+      margin: 1.4em auto;
     }
   }
 
