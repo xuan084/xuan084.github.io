@@ -565,6 +565,65 @@
     }
   }
 
+  /* CV-style Work Experience */
+  .experience-entry {
+    margin: 0 0 1.6em;
+
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.4em 0.8em;
+      border-bottom: 1px solid #e1e4e8;
+      padding-bottom: 0.35em;
+      margin-bottom: 0.55em;
+
+      strong, strong a {
+        font-size: 1.08em;
+        color: $primary-color;
+      }
+
+      .experience-location {
+        font-weight: 600;
+        color: #555;
+        font-size: 0.95em;
+      }
+    }
+
+    .experience-role {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.3em 0.8em;
+      margin-top: 0.7em;
+      margin-bottom: 0.25em;
+
+      em {
+        font-style: italic;
+        color: #2c3e50;
+      }
+
+      .experience-date {
+        font-style: italic;
+        color: #777;
+        font-size: 0.9em;
+      }
+    }
+
+    ul {
+      margin: 0.3em 0 0.6em 1.4em;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.3em;
+        color: #444;
+        line-height: 1.65;
+      }
+    }
+  }
+
   /* Publication List (full numbered list of all papers) */
   .publication-list {
     margin: 1.2rem 0 2rem;

@@ -101,12 +101,84 @@ lang: zh
 </div>
 
 <h1 id="-work-experience"><i class="fas fa-briefcase"></i> 工作经历</h1>
-- *2024.06 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW 商学院</a> 研究助理。基于大语言模型的年报分析；用神经网络与马尔可夫链做员工任期与职业路径预测。
-- *2023.10 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a> 助教 &mdash; COMP6714 *信息检索与网络搜索*；COMM5007 *商业编程*。
-- *2023.10 - 至今*：&nbsp;<a href="https://www.sydney.edu.au/business/" class="link-accent">悉尼大学商学院</a> 助教 &mdash; QBUS5001 *商业数据分析基础*；BUSS6002 *商业数据科学*。
-- *2022.07 - 2023.02*：&nbsp;**龙磐资本**（北京）风险投资部医疗组 实习生。
-- *2019.07 - 2020.12*：&nbsp;**悉尼大学** 财务部 财务专员。
-- *2018.12 - 2019.02*：&nbsp;**普华永道（PwC）**（北京）审计实习生。
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong><a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a></strong>
+    <span class="experience-location">悉尼，澳大利亚</span>
+  </div>
+  <div class="experience-role">
+    <em>研究助理，商学院</em>
+    <span class="experience-date">2024 年 6 月 – 至今</span>
+  </div>
+  <ul>
+    <li>基于大语言模型的年报自动化分析。</li>
+    <li>使用神经网络与马尔可夫链等机器学习方法，对员工任期与职业路径进行预测。</li>
+  </ul>
+  <div class="experience-role">
+    <em>助教</em>
+    <span class="experience-date">2023 年 10 月 – 至今</span>
+  </div>
+  <ul>
+    <li>助教课程：COMP6714 <em>信息检索与网络搜索</em>；COMM5007 <em>商业编程</em>。</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong><a href="https://www.sydney.edu.au/" class="link-accent">悉尼大学（USYD）</a></strong>
+    <span class="experience-location">悉尼，澳大利亚</span>
+  </div>
+  <div class="experience-role">
+    <em>助教，商学院</em>
+    <span class="experience-date">2023 年 10 月 – 至今</span>
+  </div>
+  <ul>
+    <li>助教课程：QBUS5001 <em>商业数据分析基础</em>；BUSS6002 <em>商业数据科学</em>。</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong>龙磐资本（Lapam Capital）</strong>
+    <span class="experience-location">北京，中国</span>
+  </div>
+  <div class="experience-role">
+    <em>风险投资部 · 医疗组 实习生</em>
+    <span class="experience-date">2022 年 7 月 – 2023 年 2 月</span>
+  </div>
+  <ul>
+    <li>评估生物科技公司的核心技术，将技术发现转化为投资洞察，协助团队判断项目的可行性、可扩展性与商业潜力。</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong>悉尼大学财务部</strong>
+    <span class="experience-location">悉尼，澳大利亚</span>
+  </div>
+  <div class="experience-role">
+    <em>财务专员</em>
+    <span class="experience-date">2019 年 7 月 – 2020 年 12 月</span>
+  </div>
+  <ul>
+    <li>协助推进基于云端的采购系统部署，提升数据隐私、采购流程顺畅度与整体运营效率。</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong>普华永道（PwC）</strong>
+    <span class="experience-location">北京，中国</span>
+  </div>
+  <div class="experience-role">
+    <em>审计实习生</em>
+    <span class="experience-date">2018 年 12 月 – 2019 年 2 月</span>
+  </div>
+  <ul>
+    <li>完成内部控制测试、网络风险评估与财务核查等审计程序，提升企业客户的审计可靠性与风险识别能力。</li>
+  </ul>
+</div>
 
 <h1 id="-blogs"><i class="fas fa-blog"></i> 博客</h1>
 

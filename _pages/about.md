@@ -105,12 +105,84 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 </div>
 
 # <i class="fas fa-briefcase"></i> Work Experience
-- *2024.06 - Present*: &nbsp;Research Assistant, Business School, <a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW</a>. LLM-based annual report analysis; employee tenure & career-path prediction with neural networks and Markov chains.
-- *2023.10 - Present*: &nbsp;Academic Tutor, <a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a> &mdash; COMP6714 *Information Retrieval and Web Search*; COMM5007 *Coding for Business*.
-- *2023.10 - Present*: &nbsp;Academic Tutor, Business School, <a href="https://www.sydney.edu.au/business/" class="link-accent">The University of Sydney</a> &mdash; QBUS5001 *Foundations of Data Analysis for Business*; BUSS6002 *Data Science in Business*.
-- *2022.07 - 2023.02*: &nbsp;Intern, Medical Group · Venture Capital Department, **Lapam Capital**, Beijing.
-- *2019.07 - 2020.12*: &nbsp;Finance Officer, Finance Team, **The University of Sydney**.
-- *2018.12 - 2019.02*: &nbsp;Auditing Intern, **PricewaterhouseCoopers (PwC)**, Beijing.
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong><a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a></strong>
+    <span class="experience-location">Sydney, Australia</span>
+  </div>
+  <div class="experience-role">
+    <em>Research Assistant, Business School</em>
+    <span class="experience-date">June 2024 – Present</span>
+  </div>
+  <ul>
+    <li>Automatic annual report analysis with LLMs.</li>
+    <li>Employee tenure and career path prediction with machine learning techniques such as neural networks and Markov chain.</li>
+  </ul>
+  <div class="experience-role">
+    <em>Academic Tutor</em>
+    <span class="experience-date">October 2023 – Present</span>
+  </div>
+  <ul>
+    <li>Tutor for COMP6714 <em>Information Retrieval and Web Search</em>; COMM5007 <em>Coding for Business</em>.</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong><a href="https://www.sydney.edu.au/" class="link-accent">USYD</a></strong>
+    <span class="experience-location">Sydney, Australia</span>
+  </div>
+  <div class="experience-role">
+    <em>Academic Tutor, Business School</em>
+    <span class="experience-date">October 2023 – Present</span>
+  </div>
+  <ul>
+    <li>Tutor for QBUS5001 <em>Foundation in Data Analysis for Business</em>; BUSS6002 <em>Data Science in Business</em>.</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong>Lapam Capital</strong>
+    <span class="experience-location">Beijing, China</span>
+  </div>
+  <div class="experience-role">
+    <em>Intern in Medical Group, Venture Capital Department</em>
+    <span class="experience-date">July 2022 – February 2023</span>
+  </div>
+  <ul>
+    <li>Evaluated biotechnology companies' core technologies and translated technical findings into investment insights, helping the team assess feasibility, scalability, and commercial potential.</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong>The University of Sydney Finance Team</strong>
+    <span class="experience-location">Sydney, Australia</span>
+  </div>
+  <div class="experience-role">
+    <em>Finance Officer</em>
+    <span class="experience-date">July 2019 – December 2020</span>
+  </div>
+  <ul>
+    <li>Supported the deployment of a cloud-based procurement system, contributing to improved data privacy, smoother procurement workflows, and greater operational efficiency.</li>
+  </ul>
+</div>
+
+<div class="experience-entry">
+  <div class="experience-header">
+    <strong>PricewaterhouseCoopers (PwC)</strong>
+    <span class="experience-location">Beijing, China</span>
+  </div>
+  <div class="experience-role">
+    <em>Auditing Internship</em>
+    <span class="experience-date">December 2018 – February 2019</span>
+  </div>
+  <ul>
+    <li>Conducted audit procedures including internal control testing, cyber risk assessment, and financial verification, helping improve audit reliability and risk identification for enterprise clients.</li>
+  </ul>
+</div>
 
 # <i class="fas fa-blog"></i> Blogs
 
