@@ -43,9 +43,4 @@ There is a particular moment in a tutorial — you can usually see it in someone
 
 What surprised me most this week wasn't that I enjoyed teaching, but that I felt genuinely *useful*. Research has its own slow joys, but most of what I do day-to-day is uncertain — running an experiment that might not work, drafting paragraphs that get rewritten three times, sitting with a problem that may not have a solution this month or next. Teaching is the opposite kind of work. A student walks in not understanding a thing, and ninety minutes later, with my help, they do. The signal is fast, and it's clean.
 
-<figure class="post-photo">
-  <img src="/images/2025-05-16-usyd-teaching/2.jpg" alt="After class">
-  <figcaption>Walking out of the building with that specific kind of tired.</figcaption>
-</figure>
-
 I came home tired and a little hoarse, but with that very particular feeling: *something useful happened today.* It's a feeling I want to keep showing up for.
