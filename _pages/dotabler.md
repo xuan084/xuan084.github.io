@@ -207,7 +207,7 @@ lang_alt: /zh/dotabler/
 
   <section class="project-section" style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #e1e4e8;">
     <p style="font-size: 0.9em; color: #666; line-height: 1.6;">
-      <strong>Acknowledgments:</strong> This work was conducted at the University of New South Wales. We thank our annotators for their careful work on the table–text association dataset.
+      <strong>Acknowledgments:</strong> This work was conducted at the University of New South Wales. We thank our annotators, Xiao Chen and Kuang He, for their careful work on the table–text association dataset.
     </p>
   </section>
 

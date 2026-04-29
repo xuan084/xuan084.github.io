@@ -207,7 +207,7 @@ lang_alt: /dotabler/
 
   <section class="project-section" style="margin-top: 50px; padding-top: 30px; border-top: 1px solid #e1e4e8;">
     <p style="font-size: 0.9em; color: #666; line-height: 1.6;">
-      <strong>致谢：</strong>本工作完成于新南威尔士大学。感谢标注员在表格–文本关联数据集构建过程中的细致工作。
+      <strong>致谢：</strong>本工作完成于新南威尔士大学。感谢两位标注员陈霄（Xiao Chen）与何况（Kuang He）在表格–文本关联数据集构建过程中的细致工作。
     </p>
   </section>
 

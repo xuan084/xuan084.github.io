@@ -104,7 +104,7 @@ lang: zh
 - *2024.06 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/business/" class="link-accent">UNSW 商学院</a> 研究助理。基于大语言模型的年报分析；用神经网络与马尔可夫链做员工任期与职业路径预测。
 - *2023.10 - 至今*：&nbsp;<a href="https://www.unsw.edu.au/" class="link-accent">UNSW</a> 助教 &mdash; COMP6714 *信息检索与网络搜索*；COMM5007 *商业编程*。
 - *2023.10 - 至今*：&nbsp;<a href="https://www.sydney.edu.au/business/" class="link-accent">悉尼大学商学院</a> 助教 &mdash; QBUS5001 *商业数据分析基础*；BUSS6002 *商业数据科学*。
-- *2022.07 - 2023.02*：&nbsp;**朗盛资本**（北京）风险投资部医疗组 实习生。
+- *2022.07 - 2023.02*：&nbsp;**龙磐资本**（北京）风险投资部医疗组 实习生。
 - *2019.07 - 2020.12*：&nbsp;**悉尼大学** 财务部 财务专员。
 - *2018.12 - 2019.02*：&nbsp;**普华永道（PwC）**（北京）审计实习生。
 
