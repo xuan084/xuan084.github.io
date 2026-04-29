@@ -33,7 +33,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-microscope"></i> AI Researcher</h3>
     <ul>
-      <li>Research focus on <span class="accent-text">LLMs and Document Analysis</span></li>
+      <li>Research focus on <span class="accent-text">LLMs</span></li>
       <li>Internships at <span class="primary-gradient-text">top institutions</span></li>
       <li>Publications at <span class="accent-text">ECAI</span>, <span class="accent-text">ICDAR</span></li>
     </ul>
@@ -44,15 +44,15 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <ul>
       <li>Teaching at <span class="primary-gradient-text">UNSW</span> &amp; <span class="primary-gradient-text">USyd</span></li>
       <li>Both <span class="accent-text">Business</span> and <span class="accent-text">CS</span> courses</li>
-      <li>From <span class="accent-text">data analytics</span> to <span class="accent-text">info retrieval</span></li>
+      <li>From <span class="accent-text">statistics</span> to <span class="accent-text">info retrieval</span></li>
     </ul>
   </div>
 
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-globe-asia"></i> Life Explorer</h3>
     <ul>
-      <li>Certified <span class="accent-text">Barista</span>, <span class="accent-text">Bartender</span> &amp; <span class="accent-text">Tea Master</span></li>
-      <li>Documenting <span class="primary-gradient-text">life and food</span> on the road</li>
+      <li><span class="accent-text">Barista</span>, <span class="accent-text">Bartender</span> &amp; <span class="accent-text">Tea Master</span></li>
+      <li>Documenting <span class="primary-gradient-text">life and food</span></li>
       <li>Visited <span class="accent-text">8 countries</span> worldwide</li>
     </ul>
   </div>
