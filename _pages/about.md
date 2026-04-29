@@ -52,7 +52,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <h3><i class="fas fa-globe-asia"></i> Life Explorer</h3>
     <ul>
       <li><span class="accent-text">Barista</span>, <span class="accent-text">Bartender</span> &amp; <span class="accent-text">Tea Master</span></li>
-      <li>Documenting <span class="primary-gradient-text">life and food</span></li>
+      <li>Documenting <a href="https://www.xiaohongshu.com/user/profile/59d863a6de5fb468121acdb4" target="_blank" rel="noopener" class="link-accent"><span class="primary-gradient-text">life and food</span></a></li>
       <li>Visited <span class="accent-text">8 countries</span> worldwide</li>
     </ul>
   </div>

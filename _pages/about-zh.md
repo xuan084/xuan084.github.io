@@ -48,7 +48,7 @@ lang: zh
     <h3><i class="fas fa-globe-asia"></i> 生活探索者</h3>
     <ul>
       <li><span class="accent-text">咖啡师 · 调酒师 · 茶艺师</span></li>
-      <li>探索并记录 <span class="primary-gradient-text">生活与美食</span></li>
+      <li>探索并记录 <a href="https://www.xiaohongshu.com/user/profile/59d863a6de5fb468121acdb4" target="_blank" rel="noopener" class="link-accent"><span class="primary-gradient-text">生活与美食</span></a></li>
       <li>足迹遍及 <span class="accent-text">8 个国家</span></li>
     </ul>
   </div>
