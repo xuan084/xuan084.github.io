@@ -42,7 +42,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-chalkboard-user"></i> Educator</h3>
     <ul>
-      <li>Teaching at <span class="primary-gradient-text">UNSW</span> &amp; <span class="primary-gradient-text">USyd</span></li>
+      <li>Teaching at <span class="primary-gradient-text">UNSW</span> &amp; <span class="primary-gradient-text">USYD</span></li>
       <li>Both <span class="accent-text">Business</span> and <span class="accent-text">CS</span> courses</li>
       <li>From <span class="accent-text">statistics</span> to <span class="accent-text">info retrieval</span></li>
     </ul>
