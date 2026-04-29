@@ -34,7 +34,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <h3><i class="fas fa-microscope"></i> AI Researcher</h3>
     <ul>
       <li>Research focus on <span class="accent-text">LLMs and Document Analysis</span></li>
-      <li>Tutoring at <span class="primary-gradient-text">top institutions</span></li>
+      <li>Internships at <span class="primary-gradient-text">top institutions</span></li>
       <li>Publications at <span class="accent-text">ECAI</span>, <span class="accent-text">ICDAR</span></li>
     </ul>
   </div>
