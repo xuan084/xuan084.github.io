@@ -68,7 +68,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <ol class="publication-list">
   <li>
     <strong>Xuan Li</strong>, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong.
-    "<a href="/files/aitabler-paper.pdf" class="link-accent">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a>."
+    "<a href="/aitabler/" class="link-accent">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a>."
     Accepted at <em>the 19th International Conference on Document Analysis and Recognition (ICDAR 2026)</em>, 2026.
   </li>
   <li>
@@ -96,12 +96,14 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='/images/aitabler-thumb.png' alt="AITabler Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/files/aitabler-paper.pdf" style="color: inherit; text-decoration: none;" target="_blank">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a></h3>
+    <h3><a href="/aitabler/" style="color: inherit; text-decoration: none;">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a></h3>
     <div class="authors"><strong>Xuan Li</strong>, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong</div>
     <div class="venue">Accepted at the 19th International Conference on Document Analysis and Recognition (ICDAR 2026)</div>
     <div class="links">
+      <a href="/aitabler/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <span class="btn-accent btn-disabled"><i class="fas fa-file-alt"></i> Paper</span>
       <a href="/files/aitabler-paper.pdf" class="btn-accent" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="https://icdar2026.org/index.php/accepted-papers/" class="btn-accent" target="_blank"><i class="fas fa-award"></i> Accepted List</a>
+      <span class="btn-accent btn-disabled"><i class="fas fa-image"></i> Poster</span>
       <a href="https://github.com/xuan084/Meaning-Lies-in-Structure-Fine-Grained-Table-Centric-Document-Semantic-Parsing" class="btn-accent" target="_blank"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>

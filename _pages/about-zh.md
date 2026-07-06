@@ -64,7 +64,7 @@ lang: zh
 <ol class="publication-list">
   <li>
     <strong>Xuan Li</strong>, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong.
-    "<a href="/files/aitabler-paper.pdf" class="link-accent">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a>."
+    "<a href="/zh/aitabler/" class="link-accent">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a>."
     录用于 <em>the 19th International Conference on Document Analysis and Recognition (ICDAR 2026)</em>, 2026.
   </li>
   <li>
@@ -92,12 +92,14 @@ lang: zh
     <img src='/images/aitabler-thumb.png' alt="AITabler Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/files/aitabler-paper.pdf" style="color: inherit; text-decoration: none;" target="_blank">结构承载语义：面向表格中心文档的细粒度语义解析</a></h3>
+    <h3><a href="/zh/aitabler/" style="color: inherit; text-decoration: none;">结构承载语义：面向表格中心文档的细粒度语义解析</a></h3>
     <div class="authors"><strong>Xuan Li</strong>, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong</div>
     <div class="venue">录用于 the 19th International Conference on Document Analysis and Recognition (ICDAR 2026)</div>
     <div class="links">
+      <a href="/zh/aitabler/" class="btn-accent"><i class="fas fa-home"></i> 项目主页</a>
+      <span class="btn-accent btn-disabled"><i class="fas fa-file-alt"></i> 论文</span>
       <a href="/files/aitabler-paper.pdf" class="btn-accent" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="https://icdar2026.org/index.php/accepted-papers/" class="btn-accent" target="_blank"><i class="fas fa-award"></i> 录用列表</a>
+      <span class="btn-accent btn-disabled"><i class="fas fa-image"></i> 海报</span>
       <a href="https://github.com/xuan084/Meaning-Lies-in-Structure-Fine-Grained-Table-Centric-Document-Semantic-Parsing" class="btn-accent" target="_blank"><i class="fab fa-github"></i> 代码</a>
     </div>
   </div>

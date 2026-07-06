@@ -585,6 +585,23 @@ body {
   transform: translateY(0);
 }
 
+.paper-box-text .btn-accent.btn-disabled {
+  background: #a8a8a8;
+  color: #fff !important;
+  cursor: not-allowed;
+  opacity: 0.72;
+  box-shadow: none;
+}
+
+.paper-box-text .btn-accent.btn-disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.paper-box-text .btn-accent.btn-disabled::before {
+  display: none;
+}
+
 /* 脉动效果的徽章 */
 .pulse-accent {
   animation: pulse-accent 2s infinite;
