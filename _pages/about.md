@@ -67,6 +67,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <ol class="publication-list">
   <li>
+    <strong>Xuan Li</strong>, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong.
+    "<a href="/files/aitabler-paper.pdf" class="link-accent">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a>."
+    Accepted at <em>the 19th International Conference on Document Analysis and Recognition (ICDAR 2026)</em>, 2026.
+  </li>
+  <li>
     Jingtian Wei, <strong>Xuan Li</strong>, Hongen Lu.
     "<a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=r-i4KU8AAAAJ&amp;citation_for_view=r-i4KU8AAAAJ:qjMakFHDy7sC" class="link-accent">Heuristic Conductance-Aware Local Clustering for Heterogeneous Hypergraphs</a>."
     <em>Algorithms</em>, 19(1), 2026. MDPI.
@@ -84,6 +89,29 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 </ol>
 
 # <i class="fas fa-star"></i> Featured Publications
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">ICDAR 2026</div>
+    <div style="display:flex;align-items:center;justify-content:center;height:100%;min-height:220px;background:linear-gradient(135deg,#012F63 0%,#5b6ee1 55%,#FE667B 100%);color:#fff;border-radius:8px;padding:24px;text-align:center;">
+      <div>
+        <div style="font-size:2.2em;line-height:1;margin-bottom:12px;"><i class="fas fa-table"></i></div>
+        <div style="font-weight:800;font-size:1.25em;line-height:1.25;">AITabler</div>
+        <div style="opacity:0.9;font-size:0.88em;margin-top:8px;">Fine-grained table-centric semantic parsing</div>
+      </div>
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="/files/aitabler-paper.pdf" style="color: inherit; text-decoration: none;" target="_blank">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a></h3>
+    <div class="authors"><strong>Xuan Li</strong>, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong</div>
+    <div class="venue">Accepted at the 19th International Conference on Document Analysis and Recognition (ICDAR 2026)</div>
+    <div class="links">
+      <a href="/files/aitabler-paper.pdf" class="btn-accent" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="https://icdar2026.org/index.php/accepted-papers/" class="btn-accent" target="_blank"><i class="fas fa-award"></i> Accepted List</a>
+      <a href="https://github.com/xuan084/Meaning-Lies-in-Structure-Fine-Grained-Table-Centric-Document-Semantic-Parsing" class="btn-accent" target="_blank"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
