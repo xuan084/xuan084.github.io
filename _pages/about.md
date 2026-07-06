@@ -93,13 +93,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">ICDAR 2026</div>
-    <div style="display:flex;align-items:center;justify-content:center;height:100%;min-height:220px;background:linear-gradient(135deg,#012F63 0%,#5b6ee1 55%,#FE667B 100%);color:#fff;border-radius:8px;padding:24px;text-align:center;">
-      <div>
-        <div style="font-size:2.2em;line-height:1;margin-bottom:12px;"><i class="fas fa-table"></i></div>
-        <div style="font-weight:800;font-size:1.25em;line-height:1.25;">AITabler</div>
-        <div style="opacity:0.9;font-size:0.88em;margin-top:8px;">Fine-grained table-centric semantic parsing</div>
-      </div>
-    </div>
+    <img src='/images/aitabler-thumb.png' alt="AITabler Framework Overview" width="100%">
   </div>
   <div class='paper-box-text'>
     <h3><a href="/files/aitabler-paper.pdf" style="color: inherit; text-decoration: none;" target="_blank">Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing</a></h3>
