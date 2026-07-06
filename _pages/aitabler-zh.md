@@ -61,6 +61,42 @@ lang_alt: /aitabler/
   </section>
 
   <section class="project-section pp-fadeup">
+    <h2 class="section-title">项目介绍</h2>
+    <p style="font-size: 1.05em; line-height: 1.75; color: #444;">
+      真实文档中的表格很少能够脱离上下文独立被理解。表格里可能包含关键数值，但 caption、周围段落、指标定义、实验设置、假设条件和解释性评论往往散落在页面其他位置。对于金融报告、科研论文和政策文档来说，这不是简单的版面问题，而是直接决定系统能否正确解释证据的核心问题。
+    </p>
+    <p style="font-size: 1.05em; line-height: 1.75; color: #444;">
+      <strong>AITabler</strong> 正是为这个场景设计的。它不再把表格和附近文本粗略地判断为"相关 / 不相关"，而是进一步追问：<em>这段文本与这张表之间究竟是哪一种语义关系？</em> 系统首先重建 PDF 版面结构，检索空间相关的上下文，然后用五级语义层次对表格-文本关系进行分级。这些细粒度关联进一步支撑表格中心的文档理解与下游 Table-QA。
+    </p>
+  </section>
+
+  <section class="project-section pp-fadeup">
+    <h2 class="section-title">五级语义层次</h2>
+    <div class="method-grid">
+      <div class="method-card">
+        <h3><i class="fas fa-quote-right"></i> L1. Caption Reference</h3>
+        <p>文本通过表题或显式引用直接指向该表，例如 "as shown in Table 3"。</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-table-cells"></i> L2. Content Alignment</h3>
+        <p>文本讨论表格 body-cell 中的具体数值、比较、趋势或可追溯到表格的结果。</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-tags"></i> L3. Topical Match</h3>
+        <p>文本与行列标题、数据集、指标、方法或 schema-level 概念存在主题重合。</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-circle-nodes"></i> L4. Peripheral Context</h3>
+        <p>文本在语义上相关，但不满足 L1-L3 的结构性标准，例如背景信息或方法上下文。</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-ban"></i> L5. Unrelated</h3>
+        <p>文本与表格没有可识别的语义关系，不应被注入下游推理过程。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">核心贡献</h2>
     <div class="pp-contrib-grid pp-fadeup-stagger">
       <div class="pp-contrib-card">
@@ -121,6 +157,13 @@ lang_alt: /aitabler/
     </div>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-top: 22px;">
       实验显示，AITabler 在强相关样本上准确率超过 <strong>98%</strong>，在弱相关样本上超过 <strong>75%</strong>，并在复杂 QA 任务上达到超过 <strong>70%</strong> 的准确率，显著优于粗粒度检索基线。
+    </p>
+  </section>
+
+  <section class="project-section pp-fadeup">
+    <h2 class="section-title">资源状态</h2>
+    <p style="font-size: 1.05em; line-height: 1.7; color: #444;">
+      Camera-ready PDF 现在已经可以访问。正式论文页面和海报发布后，我会把它们链接到这里；因此目前 <strong>论文</strong> 和 <strong>海报</strong> 按钮会先以 coming soon 的灰色状态显示。
     </p>
   </section>
 

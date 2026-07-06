@@ -61,6 +61,42 @@ lang_alt: /zh/aitabler/
   </section>
 
   <section class="project-section pp-fadeup">
+    <h2 class="section-title">Project Introduction</h2>
+    <p style="font-size: 1.05em; line-height: 1.75; color: #444;">
+      Real-world documents rarely explain tables in isolation. A table may contain the numerical evidence, while its caption, surrounding paragraphs, metric definitions, assumptions, and explanatory comments are scattered across the page. For financial filings, scientific papers, and policy documents, this separation is not a formatting detail - it directly affects whether a system can interpret the evidence correctly.
+    </p>
+    <p style="font-size: 1.05em; line-height: 1.75; color: #444;">
+      <strong>AITabler</strong> is built for this exact setting. Instead of treating a table and nearby text as a coarse related/unrelated pair, it asks a more precise question: <em>what kind of semantic relationship does this text have with this table?</em> The system reconstructs the PDF layout, retrieves spatially relevant context, and then grades table-text relationships with a five-level semantic hierarchy. These fine-grained associations are then used to support table-centric document understanding and downstream Table-QA.
+    </p>
+  </section>
+
+  <section class="project-section pp-fadeup">
+    <h2 class="section-title">Five-Level Semantic Hierarchy</h2>
+    <div class="method-grid">
+      <div class="method-card">
+        <h3><i class="fas fa-quote-right"></i> L1. Caption Reference</h3>
+        <p>The text explicitly refers to the table through its caption or direct mention, such as "as shown in Table 3".</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-table-cells"></i> L2. Content Alignment</h3>
+        <p>The text discusses specific body-cell values, comparisons, trends, or numerical results traceable to the table.</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-tags"></i> L3. Topical Match</h3>
+        <p>The text overlaps with row or column headers, such as datasets, metrics, methods, or schema-level concepts.</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-circle-nodes"></i> L4. Peripheral Context</h3>
+        <p>The text is semantically relevant but does not satisfy the structural criteria of L1-L3, such as background or methodological context.</p>
+      </div>
+      <div class="method-card">
+        <h3><i class="fas fa-ban"></i> L5. Unrelated</h3>
+        <p>The text has no discernible semantic relationship with the table and should not be injected into downstream reasoning.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-section pp-fadeup">
     <h2 class="section-title">Key Contributions</h2>
     <div class="pp-contrib-grid pp-fadeup-stagger">
       <div class="pp-contrib-card">
@@ -121,6 +157,13 @@ lang_alt: /zh/aitabler/
     </div>
     <p style="font-size: 1.05em; line-height: 1.7; color: #444; margin-top: 22px;">
       Experiments show that AITabler reaches over <strong>98%</strong> accuracy on strongly related samples, exceeds <strong>75%</strong> on weakly related cases, and achieves more than <strong>70%</strong> accuracy on complex QA tasks, substantially outperforming coarse-grained retrieval baselines.
+    </p>
+  </section>
+
+  <section class="project-section pp-fadeup">
+    <h2 class="section-title">Resource Status</h2>
+    <p style="font-size: 1.05em; line-height: 1.7; color: #444;">
+      The camera-ready PDF is available now. The official paper page and poster will be linked here once they are released, so the <strong>Paper</strong> and <strong>Poster</strong> buttons are intentionally shown as coming soon for now.
     </p>
   </section>
 
